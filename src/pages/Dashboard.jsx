@@ -100,10 +100,10 @@ export default function Dashboard() {
     <div className="space-y-10 pb-10">
       {/* HEADER */}
       <header className="space-y-2">
-        <h1 className="text-3xl font-extrabold text-gray-900 dark:text-white tracking-tight">
+        <h1 className="text-2xl md:text-3xl font-extrabold text-gray-900 dark:text-white tracking-tight">
           {t("welcomeBack")} {user.name}! 👋
         </h1>
-        <p className="text-gray-500 dark:text-gray-400 max-w-xl">
+        <p className="text-sm md:text-base text-gray-500 dark:text-gray-400 max-w-xl">
           {t("readyToLearn")}
         </p>
       </header>
@@ -155,11 +155,11 @@ export default function Dashboard() {
 
       {/* FEATURE CARDS */}
       <section>
-        <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-6">
+        <h2 className="text-lg md:text-xl font-bold text-gray-900 dark:text-white mb-4 md:mb-6">
           {t("continueLearning")}
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {cards.map((card, index) => (
             <FeatureCard key={index} {...card} />
           ))}

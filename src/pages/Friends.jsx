@@ -153,7 +153,7 @@ export default function Friends() {
                 </div>
             </header>
 
-            <div className="flex p-1 bg-gray-100 dark:bg-gray-800 rounded-2xl w-fit">
+            <div className="flex p-1 bg-gray-100 dark:bg-gray-800 rounded-2xl w-full sm:w-fit overflow-x-auto">
                 {[
                     { id: 'friends', label: 'My Friends', icon: Users, count: friends.length },
                     { id: 'find', label: 'Find Friends', icon: Search },
@@ -162,12 +162,12 @@ export default function Friends() {
                     <button
                         key={tab.id}
                         onClick={() => setActiveTab(tab.id)}
-                        className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-bold transition-all ${activeTab === tab.id
+                        className={`flex items-center gap-1.5 md:gap-2 px-3 md:px-6 py-2.5 rounded-xl text-xs md:text-sm font-bold transition-all whitespace-nowrap ${activeTab === tab.id
                             ? 'bg-white dark:bg-gray-700 text-blue-600 dark:text-blue-400 shadow-sm'
                             : 'text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'
                             }`}
                     >
-                        <tab.icon className="w-4 h-4" />
+                        <tab.icon className="w-4 h-4 shrink-0" />
                         {tab.label}
                         {tab.count > 0 && (
                             <span className="ml-1 bg-blue-600 text-white text-[10px] px-1.5 py-0.5 rounded-full">
@@ -177,6 +177,7 @@ export default function Friends() {
                     </button>
                 ))}
             </div>
+
 
             <div className="space-y-6">
                 {activeTab === 'find' && (

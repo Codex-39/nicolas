@@ -223,18 +223,18 @@ export default function MockTestInterface({ testName, questions, onComplete }) {
     return (
         <div className="flex flex-col h-[calc(100vh-64px)] max-h-screen border border-gray-200 dark:border-gray-800 rounded-xl overflow-hidden bg-white dark:bg-gray-900 shadow-md font-sans">
             {/* Top Bar */}
-            <div className="flex items-center justify-between p-4 bg-blue-600 dark:bg-blue-800 text-white shadow-md z-10">
-                <div className="font-bold text-lg md:text-xl truncate">{testName}</div>
-                <div className="flex items-center gap-6">
+            <div className="flex items-center justify-between p-3 md:p-4 bg-blue-600 dark:bg-blue-800 text-white shadow-md z-10">
+                <div className="font-bold text-base md:text-xl truncate flex-1 mr-2">{testName}</div>
+                <div className="flex items-center gap-3 md:gap-6 shrink-0">
                     <button 
                         onClick={() => setShowCalculator(!showCalculator)} 
-                        className="flex items-center gap-2 bg-blue-700 hover:bg-blue-500 px-3 py-1 rounded transition-colors"
+                        className="flex items-center gap-2 bg-blue-700 hover:bg-blue-500 px-2 md:px-3 py-1 rounded transition-colors"
                         title="Virtual Calculator"
                     >
                         <Calculator className="w-4 h-4" /> <span className="hidden md:inline">Calculator</span>
                     </button>
-                    <div className="flex items-center gap-2 font-mono text-xl bg-gray-900/40 px-3 py-1 rounded">
-                        <Clock className="w-5 h-5 text-yellow-300" />
+                    <div className="flex items-center gap-1.5 md:gap-2 font-mono text-base md:text-xl bg-gray-900/40 px-2 md:px-3 py-1 rounded">
+                        <Clock className="w-4 h-4 md:w-5 md:h-5 text-yellow-300" />
                         <span>{formatTime(timeLeft)}</span>
                     </div>
                 </div>
@@ -263,7 +263,7 @@ export default function MockTestInterface({ testName, questions, onComplete }) {
                     </div>
 
                     {/* Question Header */}
-                    <div className="px-6 py-3 border-b border-gray-100 dark:border-gray-800 flex justify-between items-center text-sm font-bold text-gray-700 dark:text-gray-300">
+                    <div className="px-4 md:px-6 py-2.5 border-b border-gray-100 dark:border-gray-800 flex flex-wrap justify-between items-center gap-2 text-sm font-bold text-gray-700 dark:text-gray-300">
                         <div className="flex items-center gap-4">
                             <span className="bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300 px-2 py-1 rounded">Q.{currentIndex + 1}</span>
                             <span className="uppercase tracking-wider">{currentQuestion.type}</span>
@@ -275,7 +275,7 @@ export default function MockTestInterface({ testName, questions, onComplete }) {
                     </div>
 
                     {/* Question Content */}
-                    <div className="flex-1 overflow-y-auto p-6 space-y-6">
+                    <div className="flex-1 overflow-y-auto p-4 md:p-6 space-y-6">
                         <div className="text-lg md:text-xl text-gray-900 dark:text-white font-medium leading-relaxed">
                             {currentQuestion.question}
                         </div>

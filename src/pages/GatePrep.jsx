@@ -87,15 +87,15 @@ export default function GatePrep() {
     return (
         <div className="space-y-8 transition-colors duration-300">
             <header>
-                <h1 className="text-3xl font-bold text-gray-900 dark:text-white">{t('gatePreparation')}</h1>
-                <p className="text-gray-500 dark:text-gray-400 mt-2">{t('crackGate')}</p>
+                <h1 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-white">{t('gatePreparation')}</h1>
+                <p className="text-sm md:text-base text-gray-500 dark:text-gray-400 mt-2">{t('crackGate')}</p>
             </header>
 
             {/* Branch Selection */}
             {step === 'selection' && (
-                <div className="bg-white dark:bg-gray-900 p-8 rounded-2xl border border-gray-100 dark:border-gray-800 max-w-xl mx-auto text-center shadow-sm">
-                    <h2 className="text-xl font-bold mb-6 text-gray-900 dark:text-white">{t('selectBranch')}</h2>
-                    <div className="grid grid-cols-2 gap-4">
+                <div className="bg-white dark:bg-gray-900 p-6 md:p-8 rounded-2xl border border-gray-100 dark:border-gray-800 max-w-xl mx-auto text-center shadow-sm">
+                    <h2 className="text-lg md:text-xl font-bold mb-6 text-gray-900 dark:text-white">{t('selectBranch')}</h2>
+                    <div className="grid grid-cols-2 gap-3 md:gap-4">
                         {branches.map(b => (
                             <button
                                 key={b}
@@ -111,7 +111,7 @@ export default function GatePrep() {
 
             {/* Dashboard View */}
             {step === 'dashboard' && (
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8">
                     <div className="lg:col-span-2 space-y-6">
                         {/* Syllabus Card */}
                         <div className="bg-white dark:bg-gray-900 p-6 rounded-2xl border border-gray-200 dark:border-gray-800 shadow-sm">
@@ -142,10 +142,10 @@ export default function GatePrep() {
                                     const bestScore = pastAttempts.length > 0 ? Math.max(...pastAttempts.map(a => parseFloat(a.score))) : null;
                                     return (
                                         <div key={test.id} className="p-5 border border-gray-100 dark:border-gray-800 rounded-xl hover:border-purple-300 dark:hover:border-purple-700 transition-colors group">
-                                            <div className="flex items-center justify-between">
+                                             <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
                                                 <div className="flex-1">
-                                                    <h3 className="font-bold text-gray-900 dark:text-white text-lg">{test.name}</h3>
-                                                    <div className="flex gap-4 mt-2 text-sm text-gray-500 dark:text-gray-400">
+                                                    <h3 className="font-bold text-gray-900 dark:text-white text-base md:text-lg">{test.name}</h3>
+                                                    <div className="flex flex-wrap gap-2 md:gap-4 mt-2 text-sm text-gray-500 dark:text-gray-400">
                                                         <span>{test.questions.length} Questions</span>
                                                         <span>{test.duration} Minutes</span>
                                                         <span>{test.totalMarks} Marks</span>
@@ -160,11 +160,12 @@ export default function GatePrep() {
                                                 </div>
                                                 <button
                                                     onClick={handleStartTest}
-                                                    className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2.5 rounded-xl font-bold flex items-center gap-2 transition-colors shrink-0"
+                                                    className="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2.5 rounded-xl font-bold flex items-center gap-2 transition-colors shrink-0 w-full sm:w-auto justify-center"
                                                 >
                                                     <Play className="w-4 h-4 fill-current" /> Start
                                                 </button>
                                             </div>
+
                                         </div>
                                     );
                                 })}
@@ -306,7 +307,7 @@ function ResultView({ data, questions, onBack, onReview }) {
             </div>
 
             {/* Stats Grid */}
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-3 md:gap-4">
                 <div className="bg-green-50 dark:bg-green-900/10 border border-green-200 dark:border-green-900/50 p-5 rounded-2xl text-center">
                     <CheckCircle className="w-8 h-8 text-green-600 mx-auto mb-2" />
                     <div className="text-3xl font-bold text-green-600">{data.correct}</div>
@@ -404,7 +405,7 @@ function ReviewView({ questions, responses, onBack }) {
             </div>
 
             {/* Section Filters */}
-            <div className="flex gap-2">
+            <div className="flex flex-wrap gap-2">
                 {sections.map(sec => (
                     <button
                         key={sec}
