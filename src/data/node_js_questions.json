@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "What is Node.js?",
+            "options": [
+                "A JavaScript framework",
+                "A JavaScript library",
+                "A JavaScript runtime built on Chrome's V8 engine",
+                "A programming language"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "Which engine powers the Node.js runtime?",
+            "options": [
+                "SpiderMonkey",
+                "V8",
+                "Chakra",
+                "JavaScriptCore"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "Node.js is primarily designed for:",
+            "options": [
+                "Building heavy graphics games",
+                "Data-intensive real-time applications",
+                "Only client-side scripting",
+                "Desktop office applications"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "What command is used to initialize a new Node.js project?",
+            "options": [
+                "npm start",
+                "npm install",
+                "npm init",
+                "node create"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Which file contains the metadata and dependency list for a Node project?",
+            "options": [
+                "index.js",
+                "package.json",
+                "node_modules",
+                "config.xml"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "How do you import a built-in module in Node.js (CommonJS syntax)?",
+            "options": [
+                "import fs from 'fs'",
+                "require('fs')",
+                "load('fs')",
+                "get('fs')"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "Which module is used to handle file operations in Node.js?",
+            "options": [
+                "http",
+                "path",
+                "fs",
+                "os"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "What does npm stand for?",
+            "options": [
+                "Node Project Manager",
+                "New Package Manager",
+                "Node Package Manager",
+                "Next Package Module"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "How do you run a Node.js file named 'app.js'?",
+            "options": [
+                "npm app.js",
+                "node run app.js",
+                "node app.js",
+                "execute app.js"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "What is the global object in Node.js similar to 'window' in browsers?",
+            "options": [
+                "document",
+                "global",
+                "root",
+                "process"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "Which module allows creating a web server in Node.js?",
+            "options": [
+                "url",
+                "http",
+                "stream",
+                "crypto"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "What does a package-lock.json file do?",
+            "options": [
+                "Locks the file from editing",
+                "Records exact versions of installed packages",
+                "Encrypts the dependencies",
+                "Auto-updates packages"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "In require('./myModule'), what does the './' indicate?",
+            "options": [
+                "It is a built-in module",
+                "It is an external npm package",
+                "It is a local file relative to the current directory",
+                "It is a global module"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "Which property of 'process' object gives access to command-line arguments?",
+            "options": [
+                "process.env",
+                "process.argv",
+                "process.args",
+                "process.cmd"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "Node.js is asynchronous and:",
+            "options": [
+                "Blocking",
+                "Thread-blocking",
+                "Non-blocking",
+                "Multi-threaded"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "What is the purpose of 'module.exports'?",
+            "options": [
+                "To import other modules",
+                "To expose functions/objects for use in other files",
+                "To delete a module",
+                "To install a package"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "Which character is used to separate version numbers in package.json (e.g., ^1.2.3)?",
+            "options": [
+                "Semicolon",
+                "Comma",
+                "Period",
+                "Colon"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "Which built-in module provides information about the operating system?",
+            "options": [
+                "system",
+                "os",
+                "env",
+                "platform"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "What suffix is usually used for Node.js environment variables file?",
+            "options": [
+                ".env",
+                ".config",
+                ".var",
+                ".node"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "What does 'I/O' stand for?",
+            "options": [
+                "Internal/Output",
+                "Input/Operating",
+                "Input/Output",
+                "Intelligent/Order"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "Which of these best describes the Node.js event loop?",
+            "options": [
+                "It handles multiple threads simultaneously",
+                "It allows Node.js to perform non-blocking I/O operations despite being single-threaded",
+                "It is a loop that restarts the server",
+                "It is used for CSS animations"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "What is a 'Buffer' in Node.js?",
+            "options": [
+                "A temporary memory storage for binary data",
+                "A tool to slow down requests",
+                "A way to cache HTML pages",
+                "A database connector"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "What happens if you use 'fs.readFileSync' instead of 'fs.readFile'?",
+            "options": [
+                "It runs in the background",
+                "It blocks execution until the file is read",
+                "It reads only half the file",
+                "It is faster for large files"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "What are Streams in Node.js?",
+            "options": [
+                "A way to watch videos",
+                "Objects that let you read data from a source or write data to a destination in a continuous fashion",
+                "A way to connect to a satellite",
+                "A method to compress files"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "Which method is used to write data to a file, overwriting its current content?",
+            "options": [
+                "fs.appendFile",
+                "fs.writeFile",
+                "fs.updateFile",
+                "fs.createFile"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "What are the two arguments passed to the http.createServer callback?",
+            "options": [
+                "get, post",
+                "send, receive",
+                "request, response",
+                "input, output"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "Why should you use environment variables (.env)?",
+            "options": [
+                "To make the code look professional",
+                "To store sensitive information like API keys securely outside the source code",
+                "To increase the RAM",
+                "To make the application offline"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "What is 'Callback Hell'?",
+            "options": [
+                "A server crash",
+                "Deeply nested callbacks making code hard to read and maintain",
+                "A syntax error in a loop",
+                "A function that never returns"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "Which event is emitted when a readable stream has no more data to read?",
+            "options": [
+                "finish",
+                "close",
+                "end",
+                "done"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "What is a 'Readable' stream?",
+            "options": [
+                "A stream that displays text on screen",
+                "A stream from which data can be read",
+                "A stream used for writing logs",
+                "A stream that checks for grammar errors"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "In process.env.PORT || 3000, what is the role of 3000?",
+            "options": [
+                "It is the mandatory port",
+                "It is a fallback/default port if environment variable is not set",
+                "It is the maximum number of users",
+                "It is the version of Node"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "Which built-in module is used to resolve file paths across different operating systems?",
+            "options": [
+                "fs",
+                "url",
+                "path",
+                "os"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "What does the 'EventEmitter' class do?",
+            "options": [
+                "Sends emails",
+                "Facilitates communication between objects in Node.js by emitting and listening for named events",
+                "Counts the number of users",
+                "Clears the console"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "Which 'npm' flag is used to save a package as a development dependency only?",
+            "options": [
+                "--save",
+                "--dev",
+                "-D or --save-dev",
+                "--global"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "What is the result of 'console.log(__dirname)'?",
+            "options": [
+                "The name of the current file",
+                "The absolute path of the directory containing the current file",
+                "The user's home directory",
+                "The root directory of the hard drive"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "How do you handle error in asynchronous 'fs' methods (callback pattern)?",
+            "options": [
+                "By using try/catch",
+                "The first argument of the callback is reserved for an error object",
+                "By checking the return value",
+                "Errors are ignored automatically"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "What is 'Piping' in Node.js streams?",
+            "options": [
+                "A way to format text",
+                "The process of connecting a readable stream to a writable stream",
+                "A method for database migration",
+                "A security feature"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "Which statement is true about Node's single-threaded nature?",
+            "options": [
+                "Node can only handle one request at a time",
+                "Node uses internal C++ threads via libuv to handle heavy I/O tasks outside the main thread",
+                "Node is slower than Python",
+                "Node cannot use more than 100MB of RAM"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "What is the purpose of 'require.resolve()'?",
+            "options": [
+                "To run a module",
+                "To get the absolute path to a module file without loading it",
+                "To fix a broken module",
+                "To install a module"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "What is the default behavior of the 'fs.appendFile' method?",
+            "options": [
+                "Deletes the file",
+                "Creates a new file or adds data to the end of an existing file",
+                "Overwrites the file",
+                "Renames the file"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "What is libuv in Node.js?",
+            "options": [
+                "A CSS library",
+                "A multi-platform support library with a focus on asynchronous I/O that manages the thread pool and event loop",
+                "A template engine",
+                "An npm debugger"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "Describe the 'REPL' in Node.js.",
+            "options": [
+                "A virus scanner",
+                "Read-Eval-Print-Loop: an interactive shell that executes Node.js code",
+                "A memory cleanup tool",
+                "A remote file downloader"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "How can you run code in another thread in Node.js?",
+            "options": [
+                "By using setTimeout",
+                "By using the 'worker_threads' module",
+                "Node.js doesn't support threads at all",
+                "By using 'fs.readFile'"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "What happens in the 'Poll' phase of the Event Loop?",
+            "options": [
+                "Timers are checked",
+                "New I/O events are retrieved and their callbacks are executed",
+                "The process exits",
+                "Closed callbacks are run"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "What is the difference between setImmediate() and process.nextTick()?",
+            "options": [
+                "They are the same",
+                "process.nextTick() runs immediately after the current operation, before the next event loop phase; setImmediate() runs in the Check phase",
+                "setImmediate() is faster than nextTick()",
+                "Both are used for cooling the CPU"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "What are 'Backpressure' issues in Streams?",
+            "options": [
+                "High CPU heat",
+                "When the data being read from a source is faster than the destination can write it",
+                "A network connection loss",
+                "Low disk space"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "Which of these is used to prevent the Event Loop from exiting while an object is active?",
+            "options": [
+                "unref()",
+                "ref()",
+                "stay()",
+                "hold()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "What is the significance of the 'cluster' module?",
+            "options": [
+                "To group files",
+                "To take advantage of multi-core systems by creating multiple child processes (workers) that share server ports",
+                "To connect multiple databases",
+                "To bundle frontend assets"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "How does Node.js handle heavy CPU-intensive tasks?",
+            "options": [
+                "It performs them on the main thread, blocking everything",
+                "By offloading them to worker threads or child processes to avoid blocking the main event loop",
+                "Node.js cannot do CPU-intensive tasks",
+                "By using the 'fs' module"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "What is the purpose of 'AbortController' in Node.js?",
+            "options": [
+                "To shut down the computer",
+                "To cancel asynchronous operations like fetch or stream requests",
+                "To force a crash for debugging",
+                "To logout the user"
+            ],
+            "answer": 1
+        }
+    ]
+}

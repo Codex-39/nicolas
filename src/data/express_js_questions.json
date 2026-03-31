@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "What is Express.js?",
+            "options": [
+                "A database management system",
+                "A web application framework for Node.js",
+                "A frontend JavaScript library",
+                "An operating system"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "Which command is used to install Express.js using npm?",
+            "options": [
+                "npm create express",
+                "npm setup express",
+                "npm install express",
+                "npm get express"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "What is the role of Express.js in a Node.js application?",
+            "options": [
+                "To compile JavaScript to machine code",
+                "To simplify server-side logic and routing",
+                "To manage CSS styles",
+                "To handle database migrations only"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "Which function is used to initialize an Express application?",
+            "options": [
+                "express.init()",
+                "express()",
+                "new Express()",
+                "app.start()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Which HTTP method is typically used to retrieve data from a server?",
+            "options": [
+                "POST",
+                "PUT",
+                "DELETE",
+                "GET"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "Which HTTP method is typically used to send data to create a new resource?",
+            "options": [
+                "GET",
+                "POST",
+                "UPDATE",
+                "FETCH"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "What does the 'res.send()' function do?",
+            "options": [
+                "Sends a file to the user",
+                "Sends the HTTP response",
+                "Redirects to another website",
+                "Terminates the server"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "What is the purpose of 'app.listen()'?",
+            "options": [
+                "To listen for mouse clicks",
+                "To start the server and listen for connections on a specific port",
+                "To debug the code",
+                "To install dependencies"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "How do you define a basic GET route at the root path ('/')?",
+            "options": [
+                "app.route('/', () => {})",
+                "app.get('/', (req, res) => {})",
+                "app.set('/', () => {})",
+                "app.use('/', () => {})"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "What does 'req' represent in an Express route handler?",
+            "options": [
+                "Request object",
+                "Require function",
+                "Redirect command",
+                "Restart flag"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "What does 'res' represent in an Express route handler?",
+            "options": [
+                "Resource",
+                "Restart",
+                "Response object",
+                "Reset"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "Which function is used to serve static files (like images, CSS, JS) in Express?",
+            "options": [
+                "express.static()",
+                "express.serve()",
+                "app.files()",
+                "res.static()"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "How do you access a route parameter named 'id' (e.g., /users/:id)?",
+            "options": [
+                "req.id",
+                "req.params.id",
+                "req.query.id",
+                "res.id"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "What is a 'Middleware' in Express?",
+            "options": [
+                "A types of database",
+                "A function that has access to the request and response objects and the next middleware function",
+                "A hardware component",
+                "A CSS framework"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "Which function is used to include middleware in an Express application?",
+            "options": [
+                "app.include()",
+                "app.use()",
+                "app.add()",
+                "app.route()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "What function must be called inside a custom middleware to move to the next function?",
+            "options": [
+                "next()",
+                "continue()",
+                "finish()",
+                "done()"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "What does 'res.json()' do?",
+            "options": [
+                "Converts a string to JSON",
+                "Sends a JSON response",
+                "Reads a JSON file",
+                "Parses JSON from a request"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "Which of these is a standard HTTP status code for 'Success'?",
+            "options": [
+                "404",
+                "500",
+                "200",
+                "403"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "Which of these is a standard HTTP status code for 'Not Found'?",
+            "options": [
+                "201",
+                "404",
+                "302",
+                "400"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "Express is often called a ________ framework.",
+            "options": [
+                "Maximum",
+                "Minimalist",
+                "Monolithic",
+                "Heavyweight"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "What is the difference between 'req.params' and 'req.query'?",
+            "options": [
+                "They are data types",
+                "req.params contains route segment variables; req.query contains URL query string parameters",
+                "req.params is for POST; req.query is for GET",
+                "There is no difference"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "How do you handle a POST request with a JSON body in Express?",
+            "options": [
+                "It is handled automatically",
+                "By using the 'express.json()' built-in middleware",
+                "By reading the file system",
+                "By using 'res.body'"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "What is 'express.Router()' used for?",
+            "options": [
+                "To connect to the internet",
+                "To create modular, mountable route handlers",
+                "To speed up the server",
+                "To log requests"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "Which HTTP method is used to update an entire resource?",
+            "options": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "Which HTTP method is used to partially update a resource?",
+            "options": [
+                "PUT",
+                "PATCH",
+                "DELETE",
+                "POST"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "An error-handling middleware function has how many arguments?",
+            "options": [
+                "2",
+                "3",
+                "4 (err, req, res, next)",
+                "1"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "What is the purpose of 'res.status(404)'?",
+            "options": [
+                "To close the connection",
+                "To set the HTTP status code of the response to 404",
+                "To find a file",
+                "To redirect the user"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "Which middleware is typically used to parse incoming request cookies?",
+            "options": [
+                "express.cookies",
+                "cookie-parser",
+                "express.json",
+                "body-parser"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "What is a 'RESTful API'?",
+            "options": [
+                "An API that sleeps",
+                "An API that follows the Representational State Transfer architectural style",
+                "A browser-only API",
+                "A database query language"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "In Express, how do you redirect a user to a different URL?",
+            "options": [
+                "res.go()",
+                "res.redirect()",
+                "req.redirect()",
+                "app.move()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "How do you set a custom HTTP header in the response?",
+            "options": [
+                "res.header('Key', 'Value')",
+                "res.set('Key', 'Value')",
+                "Both A and B are common",
+                "res.addHeader('Key', 'Value')"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "What does 'app.all('*', ...)' represent?",
+            "options": [
+                "A route for every file",
+                "A route that matches all HTTP methods and all paths",
+                "A security vulnerability only",
+                "A way to install all modules"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "In a REST API, what should 'DELETE /users/1' do?",
+            "options": [
+                "Create a user",
+                "Update a user",
+                "Remove the user with ID 1",
+                "List all users"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "What is 'Morgan' commonly used for in Express apps?",
+            "options": [
+                "Authentication",
+                "HTTP request logging",
+                "Database connection",
+                "UI rendering"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "What is the purpose of 'CORS' middleware?",
+            "options": [
+                "To speed up requests",
+                "To allow or restrict requested resources on a web server from another domain",
+                "To handle cookies",
+                "To compress files"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "How do you send a specific file (e.g., an image) as a response?",
+            "options": [
+                "res.send()",
+                "res.sendFile()",
+                "res.upload()",
+                "res.download()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "Which templating engines can be used with Express?",
+            "options": [
+                "EJS",
+                "Pug",
+                "Handlebars",
+                "All of the above"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "Which function is used to set a property like 'view engine' in Express?",
+            "options": [
+                "app.set('property', 'value')",
+                "app.config('property', 'value')",
+                "app.use()",
+                "express.engine()"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "How do you capture multiple route parameters like /users/:userId/posts/:postId?",
+            "options": [
+                "req.params.userId and req.params.postId",
+                "req.params[0] and req.params[1]",
+                "It's not possible in Express",
+                "req.query"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "What is the standard port used for development if not specified?",
+            "options": [
+                "80",
+                "443",
+                "There is no default; it must be specified (e.g., 3000)",
+                "21"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "How does Express handle several middleware for a single route?",
+            "options": [
+                "It only runs the first one",
+                "They execute in the order they are defined provided next() is called",
+                "It runs them randomly",
+                "It runs them in parallel"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "What is the result of not calling 'next()' in a middleware function that doesn't send a response?",
+            "options": [
+                "The server crashes",
+                "The request is 'hung' and the client will likely time out",
+                "The next middleware runs anyway",
+                "The page reloads"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "What is 'Route Protection' in Express?",
+            "options": [
+                "A firewall software",
+                "Middleware that checks for authentication (like a JWT) before allowing access to a route",
+                "Encryption of the URL",
+                "Password protecting the server folder"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "Which property of 'req' object is populated by 'multer' for handling file uploads?",
+            "options": [
+                "req.body",
+                "req.file or req.files",
+                "req.data",
+                "req.upload"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "What does 'res.sendStatus(403)' do compared to 'res.status(403)'?",
+            "options": [
+                "They are identical",
+                "res.sendStatus() sets the status AND sends the status message as the body",
+                "res.status() stops the server",
+                "res.sendStatus() is for redirecting"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "Why use 'Express Router' instead of 'app.get' for all routes?",
+            "options": [
+                "Router is faster",
+                "Router allows better modularity and organization of code in large applications",
+                "app.get is deprecated",
+                "Router connects to local storage"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "Which method is used to define parameters for a specific route parameter globally (e.g., app.param('userId', ...))?",
+            "options": [
+                "app.route()",
+                "app.param()",
+                "app.set()",
+                "router.map()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "What is the 'Request lifecycle' in Express?",
+            "options": [
+                "The time the server is on",
+                "The sequence of middleware and route handlers a request passes through until a response is sent",
+                "The user's session time",
+                "A tool to monitor traffic"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "How do you handle errors in asynchronous route handlers using async/await?",
+            "options": [
+                "Express handles them automatically",
+                "Wrap the logic in a try/catch block and call next(error) in the catch block",
+                "Express cannot handle async/await",
+                "Use 'on-error' attribute"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "What is 'app.locals' used for?",
+            "options": [
+                "Local storage on the browser",
+                "Variables that are local to the application and can be accessed in any request or template",
+                "Logging user location",
+                "Storing database passwords"
+            ],
+            "answer": 1
+        }
+    ]
+}

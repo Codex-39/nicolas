@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "What is the primary purpose of Gradient Descent?",
+            "options": [
+                "To increase the error",
+                "To find the minimum of a cost function by iteratively moving in the direction of the steepest descent",
+                "To delete data",
+                "To sort a list"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "In a neural network, what is a 'neuron'?",
+            "options": [
+                "A physical wire",
+                "A mathematical function that receives inputs and produces an output",
+                "A type of database",
+                "A user account"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "What do 'Weights' represent in a neural network?",
+            "options": [
+                "The physical weight of the computer",
+                "The strength of the connection between neurons",
+                "The number of hidden layers",
+                "The training time"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "Activation functions are used to introduce ______ into the network.",
+            "options": [
+                "Linearity",
+                "Non-linearity",
+                "Errors",
+                "Colors"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Forward propagation is the process of:",
+            "options": [
+                "Moving data from the output to the input",
+                "Moving data through the network from input to output to get a prediction",
+                "Deleting old weights",
+                "Splitting the dataset"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "Which of these is a common deep learning framework?",
+            "options": [
+                "React",
+                "PyTorch",
+                "Express",
+                "Tailwind"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "CNN stands for:",
+            "options": [
+                "Computer Network Node",
+                "Convolutional Neural Network",
+                "Centralized Neural Network",
+                "Complex Neural Node"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "CNNs are primarily used for which of the following?",
+            "options": [
+                "Word processing",
+                "Image recognition and processing",
+                "Managing tabular data",
+                "Generating random numbers"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "RNN stands for:",
+            "options": [
+                "Random Neural Network",
+                "Recurrent Neural Network",
+                "Reduced Neural Network",
+                "Relative Neural Node"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "RNNs are designed to work with ______ data.",
+            "options": [
+                "Static",
+                "Sequential (like time series or text)",
+                "Key-value",
+                "Empty"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "L1 and L2 are types of ______.",
+            "options": [
+                "Activation functions",
+                "Regularization techniques",
+                "Hidden layers",
+                "Loss functions"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "What is the goal of Regularization?",
+            "options": [
+                "To make the model more complex",
+                "To prevent overfitting by penalizing large weights",
+                "To increase training speed",
+                "To add more features"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "In a neural network, the layer between input and output is called ______ layer.",
+            "options": [
+                "Visible",
+                "Hidden",
+                "Shadow",
+                "Internal"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "What does a 'Cost Function' measure?",
+            "options": [
+                "The price of the cloud server",
+                "The difference between predicted and actual values (Error)",
+                "The speed of the code",
+                "The number of neurons"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "Which company developed TensorFlow?",
+            "options": [
+                "Microsoft",
+                "Google",
+                "Facebook",
+                "Apple"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "ReLU stands for Rectified ______ Unit.",
+            "options": [
+                "Logarithmic",
+                "Linear",
+                "Logical",
+                "Layered"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "Training a model repeatedly on the same dataset is done in ______.",
+            "options": [
+                "Iterations",
+                "Epochs",
+                "Sessions",
+                "Stages"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "What is 'Convergence' in training?",
+            "options": [
+                "The model crashing",
+                "The state where the loss reaches a stable, minimum value",
+                "Merging two datasets",
+                "Converting code to binary"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "What is 'Model Deployment'?",
+            "options": [
+                "Deleting the model",
+                "Integrating a trained model into a production environment for real-world use",
+                "Training the model again",
+                "Drawing the model architecture"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "Which activation function is most used for binary classification output?",
+            "options": [
+                "ReLU",
+                "Sigmoid",
+                "Linear",
+                "Step"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "What is the 'Learning Rate' in Gradient Descent?",
+            "options": [
+                "The total time spent training",
+                "A scalar value that determines the size of the steps taken toward the minimum",
+                "The number of hidden layers",
+                "The accuracy of the model"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "What happens in 'Backpropagation'?",
+            "options": [
+                "Moving data forward",
+                "The gradient of the loss function is computed and used to update the weights of the network",
+                "Generating random weights",
+                "Testing the model on new data"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "L1 Regularization (Lasso) can lead to ______ weights.",
+            "options": [
+                "Infinite",
+                "Sparse (many weights become zero)",
+                "Very large",
+                "Random"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "L2 Regularization (Ridge) adds a penalty proportional to the ______ of weights.",
+            "options": [
+                "Square",
+                "Cube",
+                "Logarithm",
+                "Sum of absolute values"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "The 'Convolution' layer in CNN is responsible for:",
+            "options": [
+                "Enlarging the image",
+                "Feature extraction using filters/kernels",
+                "Reducing the image size",
+                "Connecting to the database"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "What is the purpose of a 'Pooling' layer in CNN?",
+            "options": [
+                "To increase the resolution",
+                "To reduce the spatial dimensions (downsampling) while retaining important features",
+                "To add more filters",
+                "To classify the final image"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "Softmax activation is typically used in the ______ layer of a multi-class classifier.",
+            "options": [
+                "Input",
+                "Hidden",
+                "Output",
+                "Normalization"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "What is a 'Vanishing Gradient'?",
+            "options": [
+                "An error that makes the model disappear",
+                "A problem where gradients become very small, preventing weight updates in early layers of deep networks",
+                "A very fast optimization",
+                "A type of regularization"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "LSTM stands for Long ______ Memory.",
+            "options": [
+                "Short-Term",
+                "Sequential-Term",
+                "Standard-Task",
+                "Symmetric-Time"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "Why is ReLU preferred over Sigmoid in hidden layers?",
+            "options": [
+                "It is more complex",
+                "It helps mitigate the vanishing gradient problem and is computationally efficient",
+                "It only supports positive numbers",
+                "It is older"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "Hyperparameters are different from parameters because they are:",
+            "options": [
+                "Learned during training",
+                "Set manually before training (like learning rate or hidden layer count)",
+                "Only used in deep learning",
+                "Always integers"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "What is the 'Softmax' function output distribution property?",
+            "options": [
+                "Values between -1 and 1",
+                "Outputs sum to 1.0 (Probability distribution)",
+                "All outputs are zero",
+                "Infinite range"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "What is 'Overfitting' in deep learning?",
+            "options": [
+                "The model is too small",
+                "The model captures noise in training data and fails to generalize to new data",
+                "The model is too fast",
+                "The model doesn't learn anything"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "What is 'Data Augmentation' in CNN?",
+            "options": [
+                "Deleting images",
+                "Creating new training samples by applying random transformations (flips, rotations) to existing images",
+                "Increasing the pixels of images",
+                "Using only high-resolution images"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "In RNN, 'Hidden State' acts as ______.",
+            "options": [
+                "An error message",
+                "Memory that carries information from previous time steps",
+                "The final output",
+                "A bias term"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "Which optimizer is commonly used besides standard SGD?",
+            "options": [
+                "Alpha",
+                "Adam",
+                "Eva",
+                "Zeta"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "The 'Chain Rule' in calculus is used for:",
+            "options": [
+                "Moving files",
+                "Calculating the gradient during backpropagation",
+                "Sorting data",
+                "Connecting servers"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "What does 'Lasso' regularization use in its penalty term?",
+            "options": [
+                "Squared magnitudes",
+                "Absolute magnitudes of the coefficients",
+                "The number of features",
+                "The mean value"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "A 'Batch' in deep learning training is:",
+            "options": [
+                "The entire dataset",
+                "A small subset of training data used to perform one weight update",
+                "The version of the code",
+                "A group of models"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "What is an 'Optimizer'?",
+            "options": [
+                "A tool for UI design",
+                "An algorithm that updates neural network attributes (like weights) to reduce losses",
+                "A way to speed up the GPU",
+                "A data compression tool"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "What is 'Dropout' in neural networks?",
+            "options": [
+                "Deleting the entire model",
+                "Randomly setting a fraction of input units to zero at each update during training to prevent overfitting",
+                "Uninstalling the framework",
+                "Exiting the program"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "What is the difference between a global minimum and a local minimum in the cost surface?",
+            "options": [
+                "There is no difference",
+                "Global is the absolute lowest point; local is lowest in a specific region but may not be the minimum",
+                "Local is always better",
+                "Global minimum is impossible to find"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "What is 'Batch Normalization'?",
+            "options": [
+                "Normalizing the entire collection",
+                "A technique to standardize inputs to a layer for each mini-batch, stabilizing and speeding up training",
+                "Changing the file format",
+                "Renaming the batches"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "In GANs (Generative Adversarial Networks), the two networks are called ______ and ______.",
+            "options": [
+                "Master and Slave",
+                "Generator and Discriminator",
+                "Input and Output",
+                "Encoder and Decoder"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "What is the 'Exploding Gradient' problem?",
+            "options": [
+                "Gradients becoming too small",
+                "Gradients becoming extremely large, causing unstable updates and model failure",
+                "The model running too fast",
+                "The GPU overheating"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "What the 'Attention Mechanism' primarily used for in modern Deep Learning?",
+            "options": [
+                "To watch the user",
+                "To allow the model to focus on specific parts of the input sequence when producing an output (e.g., in Transformers)",
+                "To increase the monitor brightness",
+                "To notify the developer"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "What is 'Transfer Learning'?",
+            "options": [
+                "Moving files between computers",
+                "Using a pre-trained model on a new, related task to save time and resources",
+                "Teaching a new student",
+                "Copying code from a website"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "What is a 'Tension' (Tensor) in frameworks like TensorFlow?",
+            "options": [
+                "A feeling of stress",
+                "A multi-dimensional array or generalization of vectors and matrices",
+                "A type of error",
+                "A hidden layer"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "What is an 'Autoencoder'?",
+            "options": [
+                "A tool for auto-writing code",
+                "A neural network that learns to compress data (encoding) and then reconstruct it (decoding)",
+                "An automatic car",
+                "A self-training model"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "What is the purpose of 'Momentum' in Gradient Descent?",
+            "options": [
+                "To make the model heavier",
+                "To speed up Gradient Descent by smoothing out updates and reducing oscillations",
+                "To stop the training early",
+                "To randomizing the input order"
+            ],
+            "answer": 1
+        }
+    ]
+}

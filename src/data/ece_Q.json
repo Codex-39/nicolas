@@ -1,0 +1,74 @@
+{
+    "questions": [
+        {
+            "id": "ece_q1",
+            "question": "Which area interests you most?",
+            "options": [
+                "Electronics",
+                "Communication",
+                "Programming",
+                "Signals"
+            ]
+        },
+        {
+            "id": "ece_q2",
+            "question": "Which tool excites you?",
+            "options": [
+                "Microcontrollers",
+                "MATLAB",
+                "IoT boards",
+                "Wireless kits"
+            ]
+        },
+        {
+            "id": "ece_q3",
+            "question": "What kind of work do you like?",
+            "options": [
+                "Hardware",
+                "Simulation",
+                "Coding",
+                "Research"
+            ]
+        },
+        {
+            "id": "ece_q4",
+            "question": "Which subject do you enjoy?",
+            "options": [
+                "Digital electronics",
+                "Analog",
+                "Signals",
+                "Communication"
+            ]
+        },
+        {
+            "id": "ece_q5",
+            "question": "What environment suits you?",
+            "options": [
+                "Lab",
+                "Industry",
+                "Startup",
+                "Research"
+            ]
+        },
+        {
+            "id": "ece_q6",
+            "question": "What attracts you?",
+            "options": [
+                "Chips",
+                "Networks",
+                "Devices",
+                "Automation"
+            ]
+        },
+        {
+            "id": "ece_q7",
+            "question": "Your future goal?",
+            "options": [
+                "Core job",
+                "Tech startup",
+                "Higher studies",
+                "Product design"
+            ]
+        }
+    ]
+}

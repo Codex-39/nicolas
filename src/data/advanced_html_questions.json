@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "Which tag is used to define the header for a document or a section?",
+            "options": [
+                "<head>",
+                "<header>",
+                "<top>",
+                "<nav>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "What is the primary purpose of semantic HTML tags?",
+            "options": [
+                "To make the code shorter",
+                "To provide meaning to the web content",
+                "To style the elements",
+                "To increase load speed"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "Which tag is used to define a navigation section?",
+            "options": [
+                "<links>",
+                "<nav>",
+                "<menu>",
+                "<navbar>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "Which tag is used for the footer of a document or section?",
+            "options": [
+                "<bottom>",
+                "<footer>",
+                "<end>",
+                "<section>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Which element is used to represent an independent, self-contained piece of content?",
+            "options": [
+                "<section>",
+                "<article>",
+                "<aside>",
+                "<div>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "What does the <aside> tag represent?",
+            "options": [
+                "Main content",
+                "Content aside from the main content",
+                "A secondary header",
+                "A navigation bridge"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "Which tag is used to group related content together into a thematic group?",
+            "options": [
+                "<div>",
+                "<section>",
+                "<article>",
+                "<aside>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "Which tag is used to define a table row?",
+            "options": [
+                "<td>",
+                "<th>",
+                "<tr>",
+                "<row>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "In a table, what does <th> stand for?",
+            "options": [
+                "Table Holder",
+                "Table Header",
+                "Table High",
+                "Table Helper"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "Which tag is used for a generic container for inline content?",
+            "options": [
+                "<div>",
+                "<span>",
+                "<container>",
+                "<box>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "Which input type is used for email addresses?",
+            "options": [
+                "text",
+                "url",
+                "email",
+                "mail"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "Which attribute makes an input field mandatory?",
+            "options": [
+                "mandatory",
+                "required",
+                "validation",
+                "important"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "Which tag is used to embed an audio file?",
+            "options": [
+                "<sound>",
+                "<music>",
+                "<audio>",
+                "<voice>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "Which tag is used to embed a video?",
+            "options": [
+                "<movie>",
+                "<video>",
+                "<media>",
+                "<stream>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "Which attribute adds video/audio playback buttons?",
+            "options": [
+                "buttons",
+                "play",
+                "controls",
+                "show"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "What is the purpose of the <meta charset='UTF-8'> tag?",
+            "options": [
+                "Set the font",
+                "Set the character encoding",
+                "Set the language",
+                "Set the background color"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "What does the 'alt' attribute do in an <img> tag?",
+            "options": [
+                "Styles the image",
+                "Provides alternative text if the image fails to load",
+                "Links the image",
+                "Resizes the image"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "Which tag is used to create a dropdown list in a form?",
+            "options": [
+                "<input type='list'>",
+                "<select>",
+                "<dropdown>",
+                "<option>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "Which attribute is used to group radio buttons together?",
+            "options": [
+                "id",
+                "class",
+                "name",
+                "type"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "Which tag is used to define a large multi-line text input?",
+            "options": [
+                "<input type='textarea'>",
+                "<textarea>",
+                "<text>",
+                "<input type='large'>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "Which table tag is used to group the header content of a table?",
+            "options": [
+                "<header>",
+                "<thead-group>",
+                "<thead>",
+                "<tbody>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "How do you make a table cell span across two columns?",
+            "options": [
+                "rowspan='2'",
+                "colspan='2'",
+                "width='2'",
+                "span='2'"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "Which attribute allows you to validate an input using a Regular Expression?",
+            "options": [
+                "regex",
+                "pattern",
+                "rule",
+                "match"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "What is the purpose of the <datalist> tag?",
+            "options": [
+                "Display a list of data in a table",
+                "Provide auto-complete options for an input",
+                "Store data records",
+                "Create a navigation list"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "Which tag is used to group related elements in a form with a caption?",
+            "options": [
+                "<fieldset>",
+                "<group>",
+                "<section>",
+                "<div>"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "In a <fieldset>, which tag is used to define the caption?",
+            "options": [
+                "<caption>",
+                "<label>",
+                "<legend>",
+                "<title>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "Which HTML5 API can be used to determine the user's location?",
+            "options": [
+                "GPS API",
+                "Location API",
+                "Geolocation API",
+                "Map API"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "What is the main difference between localStorage and sessionStorage?",
+            "options": [
+                "localStorage is faster",
+                "sessionStorage persists after closing the browser",
+                "localStorage persists after closing the browser",
+                "sessionStorage has more capacity"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "Which meta tag is crucial for responsive web design?",
+            "options": [
+                "<meta name='responsive'>",
+                "<meta name='viewport'>",
+                "<meta name='width'>",
+                "<meta name='scaling'>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "What does ARIA stand for in web accessibility?",
+            "options": [
+                "Accessible Rich Interface Applications",
+                "Accessible Real-time Information Access",
+                "Advanced Rich Internet Applications",
+                "Accessible Rich Internet Applications"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "Which attribute provides a label for elements that have no visible text on the screen?",
+            "options": [
+                "alt",
+                "aria-label",
+                "title",
+                "label"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "How do you specify multiple source files for a <video> element?",
+            "options": [
+                "Using multiple 'src' attributes",
+                "Using the <source> tag inside <video>",
+                "Using a comma-separated list in 'src'",
+                "Using the <file> tag"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "Which tag is used to draw graphics on the fly via JavaScript?",
+            "options": [
+                "<graphics>",
+                "<draw>",
+                "<canvas>",
+                "<svg>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "What is the purpose of the <tfoot> tag in a table?",
+            "options": [
+                "Define the last row",
+                "Group footer content in a table",
+                "Add summaries to columns",
+                "Style the bottom of the table"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "Which input type is used to upload files?",
+            "options": [
+                "type='upload'",
+                "type='file'",
+                "type='submit'",
+                "type='attach'"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "Which element is used to describe a caption for a <figure> element?",
+            "options": [
+                "<caption>",
+                "<figcaption>",
+                "<legend>",
+                "<label>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "What is the purpose of the 'autoplay' attribute in media elements?",
+            "options": [
+                "Loop the media",
+                "Start playing as soon as ready",
+                "Show controls",
+                "Mute the media"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "Which tag is used to represent an external resource like a webpage embedded inside another?",
+            "options": [
+                "<embed>",
+                "<object>",
+                "<iframe>",
+                "<external>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "What is the purpose of <meta name='description'>?",
+            "options": [
+                "Set the page title",
+                "Provide a summary for search engines",
+                "Defines the site owner",
+                "Sets keywords for the page"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "Which input type allows choosing multiple options from a set?",
+            "options": [
+                "radio",
+                "checkbox",
+                "select",
+                "text"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "Which attribute should be used on an <iframe> for security to restrict actions?",
+            "options": [
+                "restrict",
+                "sandbox",
+                "secure",
+                "lock"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "In the Geolocation API, which method is used to get the current position?",
+            "options": [
+                "getCurrentLoc()",
+                "getCurrentPosition()",
+                "getLoc()",
+                "fetchPosition()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "Which HTML5 attribute can be added to an element to make it editable by the user?",
+            "options": [
+                "editable='true'",
+                "contenteditable='true'",
+                "inputMode='text'",
+                "userEdit='true'"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "What is the characteristic of a Web Worker?",
+            "options": [
+                "It manipulates the DOM directly",
+                "It runs in the background, separate from the main script",
+                "It is used for styling",
+                "It handles network requests only"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "Which event is triggered when the browser's storage area (localStorage/sessionStorage) is modified?",
+            "options": [
+                "onchange",
+                "onstorage",
+                "onmodify",
+                "onupdate"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "What is the 'defer' attribute in a <script> tag used for?",
+            "options": [
+                "Executes script immediately",
+                "Executes script after the document has been parsed",
+                "Loads script asynchronously",
+                "Stops the script execution"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "Which attribute provides a hint to the browser about what type of data might be entered into an input for virtual keyboards?",
+            "options": [
+                "type",
+                "inputmode",
+                "pattern",
+                "data-type"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "What does the 'preload' attribute in <video> specify?",
+            "options": [
+                "The video plays instantly",
+                "How much of the video should be loaded before playing",
+                "The quality of the video",
+                "The poster image"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "Which ARIA role should be used to define a region as a live update area?",
+            "options": [
+                "role='update'",
+                "aria-live",
+                "role='live'",
+                "aria-update"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "In a form, what is the 'multipart/form-data' enctype used for?",
+            "options": [
+                "Sending formatted text",
+                "Sending files",
+                "Sending encrypted data",
+                "Sending JSON"
+            ],
+            "answer": 1
+        }
+    ]
+}

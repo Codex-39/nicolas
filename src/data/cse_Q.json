@@ -1,0 +1,74 @@
+{
+    "questions": [
+        {
+            "id": "cse_q1",
+            "question": "What excites you the most?",
+            "options": [
+                "Building websites",
+                "Analyzing data",
+                "Solving coding problems",
+                "Understanding system internals"
+            ]
+        },
+        {
+            "id": "cse_q2",
+            "question": "Which type of work do you prefer?",
+            "options": [
+                "Creative",
+                "Analytical",
+                "Logical",
+                "Technical"
+            ]
+        },
+        {
+            "id": "cse_q3",
+            "question": "Which subject do you enjoy most?",
+            "options": [
+                "HTML/CSS/JS",
+                "Statistics",
+                "DSA",
+                "OS & Networks"
+            ]
+        },
+        {
+            "id": "cse_q4",
+            "question": "What kind of problems do you like solving?",
+            "options": [
+                "UI bugs",
+                "Data trends",
+                "Algorithm challenges",
+                "System crashes"
+            ]
+        },
+        {
+            "id": "cse_q5",
+            "question": "Which tool sounds more interesting?",
+            "options": [
+                "React",
+                "Python",
+                "Java",
+                "Linux"
+            ]
+        },
+        {
+            "id": "cse_q6",
+            "question": "Where do you see yourself working?",
+            "options": [
+                "Startup",
+                "Research",
+                "Product company",
+                "Infrastructure company"
+            ]
+        },
+        {
+            "id": "cse_q7",
+            "question": "What motivates you more?",
+            "options": [
+                "Design impact",
+                "Insights from data",
+                "Cracking logic",
+                "Performance optimization"
+            ]
+        }
+    ]
+}

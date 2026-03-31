@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "What does HTML stand for?",
+            "options": [
+                "Hyper Text Markup Language",
+                "High Tech Modern Language",
+                "Hyper Tabular Markup Link",
+                "Home Tool Markup Language"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "Which tag is used to define the root of an HTML document?",
+            "options": [
+                "<head>",
+                "<body>",
+                "<html>",
+                "<?xml>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "What is the correct tag for the largest heading?",
+            "options": [
+                "<h6>",
+                "<h1>",
+                "<head>",
+                "<header>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "Which tag is used to create a line break?",
+            "options": [
+                "<lb>",
+                "<break>",
+                "<hr>",
+                "<br>"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "What is the correct tag for a paragraph?",
+            "options": [
+                "<para>",
+                "<p>",
+                "<text>",
+                "<pg>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "Which attribute is used to provide an image source?",
+            "options": [
+                "href",
+                "src",
+                "link",
+                "alt"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "How do you create a link in HTML?",
+            "options": [
+                "<link href='...'>",
+                "<a>link</a>",
+                "<a href='...'>",
+                "<url='...'>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "Which tag is used to define an unordered list?",
+            "options": [
+                "<ol>",
+                "<ul>",
+                "<li>",
+                "<list>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "What is the correct tag for a list item?",
+            "options": [
+                "<li>",
+                "<item>",
+                "<list-item>",
+                "<ul>"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "Which tag is used for an ordered list?",
+            "options": [
+                "<ul>",
+                "<li>",
+                "<ol>",
+                "<order-list>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "Which attribute is required for the <img> tag for accessibility?",
+            "options": [
+                "src",
+                "title",
+                "alt",
+                "width"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "What does the <hr> tag represent?",
+            "options": [
+                "Horizontal Rule",
+                "Header Row",
+                "Hard Reset",
+                "Hyper Reference"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "Which tag is used to define the title of the page?",
+            "options": [
+                "<head>",
+                "<title>",
+                "<header>",
+                "<meta>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "What is the correct tag for making text bold?",
+            "options": [
+                "<bold>",
+                "<strong>",
+                "<bld>",
+                "<important>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "Which tag makes text italic?",
+            "options": [
+                "<i>",
+                "<italic>",
+                "<em>",
+                "<style>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "Which HTML element contains all the visible content?",
+            "options": [
+                "<head>",
+                "<main>",
+                "<body>",
+                "<section>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "Which character is used to indicate an end tag?",
+            "options": [
+                "<",
+                "/",
+                "*",
+                "^"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "What does the target='_blank' attribute do in an <a> tag?",
+            "options": [
+                "Opens link in same tab",
+                "Opens link in new tab",
+                "Blocks the link",
+                "Reloads current page"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "Which tag is used to define a container for multiple elements?",
+            "options": [
+                "<span>",
+                "<div>",
+                "<section>",
+                "<group>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "Which tag is used to define a small inline section of text?",
+            "options": [
+                "<div>",
+                "<span>",
+                "<text>",
+                "<small>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "Which of the following is a self-closing tag?",
+            "options": [
+                "<div>",
+                "<p>",
+                "<img />",
+                "<a>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "What is the correct declaration for HTML5?",
+            "options": [
+                "<!DOCTYPE html5>",
+                "<!DOCTYPE HTML PUBLIC...>",
+                "<!DOCTYPE html>",
+                "<html>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "Which tag is used to define a button in a form?",
+            "options": [
+                "<input type='press'>",
+                "<button>",
+                "<input type='submit'>",
+                "Both <button> and <input type='submit'>"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "Which attribute is used to provide a unique identifier for an element?",
+            "options": [
+                "class",
+                "id",
+                "name",
+                "tag"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "What is the difference between <div> and <span>?",
+            "options": [
+                "Div is block-level, Span is inline",
+                "Span is block-level, Div is inline",
+                "Both are block-level",
+                "Both are inline"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "Which tag is used to define a label for an <input> element?",
+            "options": [
+                "<text>",
+                "<label>",
+                "<desc>",
+                "<name>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "What does the 'action' attribute in a <form> represent?",
+            "options": [
+                "Where to send data",
+                "Method used to send data",
+                "Form validation rule",
+                "Reset trigger"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "Which tag is used to define metadata about an HTML document?",
+            "options": [
+                "<meta>",
+                "<head>",
+                "<info>",
+                "<data>"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "How do you add a comment in HTML?",
+            "options": [
+                "// comment",
+                "/* comment */",
+                "<!-- comment -->",
+                "# comment"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "Which input type is used for a password field?",
+            "options": [
+                "text",
+                "hidden",
+                "password",
+                "secret"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "Which attribute in a <form> specifies the HTTP method used?",
+            "options": [
+                "type",
+                "action",
+                "method",
+                "submit"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "What is the purpose of the <thead> tag?",
+            "options": [
+                "Header of the page",
+                "Footer of table",
+                "Header part of table",
+                "Heading for paragraph"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "Which tag is used to define a table row?",
+            "options": [
+                "<td>",
+                "<th>",
+                "<tr>",
+                "<table>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "Which tag is used to define a table cell?",
+            "options": [
+                "<tr>",
+                "<td>",
+                "<th>",
+                "<cell>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "Which tag is used to define a table header?",
+            "options": [
+                "<td>",
+                "<tr>",
+                "<th>",
+                "<head>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "What does the 'placeholder' attribute do in an <input>?",
+            "options": [
+                "Locks input",
+                "Displays default value",
+                "Displays hint text",
+                "Sets max length"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "Which tag is used to embed a YouTube video?",
+            "options": [
+                "<video>",
+                "<embed>",
+                "<iframe>",
+                "<youtube>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "Which tag is used to define a list of options for an input?",
+            "options": [
+                "<datalist>",
+                "<options>",
+                "<select>",
+                "<group>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "What is the purpose of the <label for='...'> attribute?",
+            "options": [
+                "Style the label",
+                "Bind label to an input ID",
+                "Position the label",
+                "Defines label name"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "Which tag is used to group related elements in a form?",
+            "options": [
+                "<fieldset>",
+                "<group>",
+                "<section>",
+                "<div>"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "Which of the following is NOT a semantic HTML5 tag?",
+            "options": [
+                "<article>",
+                "<aside>",
+                "<center>",
+                "<nav>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "What is the default display value of a <div> element?",
+            "options": [
+                "inline",
+                "block",
+                "inline-block",
+                "flex"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "What is the default display value of an <a> element?",
+            "options": [
+                "block",
+                "inline",
+                "none",
+                "flex"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "Which attribute allows an element to be focusable using keyboard navigation?",
+            "options": [
+                "focus",
+                "tabindex",
+                "index",
+                "nav"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "How do you specify the character encoding for an HTML document?",
+            "options": [
+                "<meta char='UTF-8'>",
+                "<meta charset='UTF-8'>",
+                "<encoding type='UTF-8'>",
+                "<header charset='UTF-8'>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "Which HTML5 API allows storing data locally in a user's browser?",
+            "options": [
+                "Web Storage (localStorage)",
+                "SQL Database",
+                "XML Cache",
+                "File System API"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "What does the <canvas> element provide?",
+            "options": [
+                "A way to run scripts",
+                "A container for graphics",
+                "A video player",
+                "A text layout engine"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "Which tag is used to specify a navigation section?",
+            "options": [
+                "<nav>",
+                "<menu>",
+                "<link>",
+                "<header>"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "Which attribute is used to make an input field read-only?",
+            "options": [
+                "disabled",
+                "readonly",
+                "locked",
+                "static"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "Which tag is used for self-contained content like images with captions?",
+            "options": [
+                "<figure>",
+                "<section>",
+                "<aside>",
+                "<article>"
+            ],
+            "answer": 0
+        }
+    ]
+}

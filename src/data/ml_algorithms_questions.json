@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "What is the primary goal of Linear Regression?",
+            "options": [
+                "To classify data into categories",
+                "To model the relationship between a dependent variable and one or more independent variables using a straight line",
+                "To group data points without labels",
+                "To find the shortest path in a graph"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "Which algorithm is most suitable for binary classification?",
+            "options": [
+                "Linear Regression",
+                "Logistic Regression",
+                "K-Means Clustering",
+                "Principal Component Analysis"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "What does the 'K' in K-Nearest Neighbors represent?",
+            "options": [
+                "The number of features",
+                "The number of clusters",
+                "The number of nearest neighbors to consider",
+                "The learning rate"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "What is the shape of a Decision Tree?",
+            "options": [
+                "Circular",
+                "Linear",
+                "Tree-like structure with nodes and branches",
+                "Grid-like"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Random Forest is an example of which type of learning?",
+            "options": [
+                "Single Model Learning",
+                "Ensemble Learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "Naive Bayes is based on which mathematical theorem?",
+            "options": [
+                "Pythagorean Theorem",
+                "Bayes' Theorem",
+                "Central Limit Theorem",
+                "Taylor's Theorem"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "What does 'SVM' stand for in Machine Learning?",
+            "options": [
+                "Simple Vector Machine",
+                "Support Vector Machine",
+                "System Variable Model",
+                "Statistical Vector Method"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "K-Means is which type of algorithm?",
+            "options": [
+                "Supervised Classification",
+                "Supervised Regression",
+                "Unsupervised Clustering",
+                "Reinforcement Learning"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "In Linear Regression, the line that minimizes the sum of squared errors is called the:",
+            "options": [
+                "Inaccurate line",
+                "Line of best fit",
+                "Curved line",
+                "Random line"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "The Sigmoid function in Logistic Regression maps any value to a range between:",
+            "options": [
+                "-1 and 1",
+                "0 and 1",
+                "0 and infinity",
+                "-infinity and infinity"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "Which distance metric is commonly used in KNN?",
+            "options": [
+                "Euclidean distance",
+                "Speed distance",
+                "Weight distance",
+                "Time distance"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "The topmost node in a Decision Tree is called the:",
+            "options": [
+                "Leaf node",
+                "Internal node",
+                "Root node",
+                "Branch node"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "Random Forest works by combining multiple ______.",
+            "options": [
+                "Linear Regressions",
+                "Decision Trees",
+                "K-Means clusters",
+                "SVMs"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "The 'Naive' in Naive Bayes comes from the assumption that features are ______.",
+            "options": [
+                "Related",
+                "Dependent",
+                "Independent",
+                "Correlated"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "In SVM, the boundary that separates different classes is called a ______.",
+            "options": [
+                "Hyperspace",
+                "Hyperplane",
+                "Superline",
+                "Crossgrid"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "In K-Means, the center of a cluster is called a ______.",
+            "options": [
+                "Median",
+                "Centroid",
+                "Apex",
+                "Core"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "What happens in the 'K' selection process of K-Means?",
+            "options": [
+                "Choosing the number of trees",
+                "Choosing the number of clusters",
+                "Choosing the test size",
+                "Choosing the learning rate"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "Which of these is used to evaluate a classification model?",
+            "options": [
+                "R-squared",
+                "Confusion Matrix",
+                "Mean Absolute Error",
+                "Standard Deviation"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "Entropy in Decision Trees is a measure of ______.",
+            "options": [
+                "Speed",
+                "Impurity or randomness",
+                "Certainty",
+                "Height"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "A model that performs very well on training data but poorly on test data is likely ______.",
+            "options": [
+                "Underfitting",
+                "Optimal",
+                "Overfitting",
+                "Balanced"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "What is the 'Cost Function' in Linear Regression typically used for?",
+            "options": [
+                "To calculate the profit",
+                "To measure how far off the predictions are from the actual values",
+                "To speed up the code",
+                "To increase the number of features"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "Why is Logistic Regression preferred over Linear Regression for classification?",
+            "options": [
+                "It is faster",
+                "Linear Regression output is continuous, while Logistic Regression provides probabilities mapped to classes",
+                "Linear Regression cannot handle numbers",
+                "Logistic Regression uses more data"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "What is a potential disadvantage of a very small 'K' in KNN?",
+            "options": [
+                "Underfitting",
+                "The model becomes too simple",
+                "Sensitive to noise (Overfitting)",
+                "The model takes too much memory"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "In Decision Trees, 'Information Gain' is calculated by subtracting ______ from the original entropy.",
+            "options": [
+                "The result",
+                "The weighted average entropy of the children",
+                "The number of nodes",
+                "The depth of the tree"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "What is the main benefit of using Random Forest over a single Decision Tree?",
+            "options": [
+                "It uses fewer features",
+                "It reduces variance and prevents overfitting",
+                "It is easier to visualize",
+                "It always gives 100% accuracy"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "The 'Kernel Trick' in SVM is used to:",
+            "options": [
+                "Simplify the data",
+                "Map data into a higher-dimensional space where it's easier to find a separating hyperplane",
+                "Delete outliers",
+                "Calculate the mean"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "What is the 'Elbow Method' used for in K-Means?",
+            "options": [
+                "Finding the best learning rate",
+                "Determining the optimal number of clusters (K)",
+                "Sorting the data",
+                "Drawing a straight line"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "Which algorithm is most likely to suffer from the 'Independence Assumption' violation?",
+            "options": [
+                "Linear Regression",
+                "Naive Bayes",
+                "SVM",
+                "Random Forest"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "In SVM, 'Margin' refers to:",
+            "options": [
+                "The error rate",
+                "The distance between the hyperplane and the nearest data points from either class",
+                "The number of features",
+                "The size of the test set"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "What is 'Bagging' (Bootstrap Aggregating) in Random Forest?",
+            "options": [
+                "Using all data for every tree",
+                "Training each tree on a random subset of the data with replacement",
+                "Deleting bad trees",
+                "Sorting trees by accuracy"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "Which of these is a metric specifically for Regression models?",
+            "options": [
+                "Precision",
+                "F1-Score",
+                "Mean Squared Error (MSE)",
+                "Recall"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "What is the purpose of 'Centroid' updates in K-Means?",
+            "options": [
+                "To delete empty clusters",
+                "To move the center of each cluster to the average position of its assigned points",
+                "To increase the number of points",
+                "To change the distance metric"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "A model with 'High Variance' typically suffers from:",
+            "options": [
+                "Underfitting",
+                "Overfitting",
+                "Being too biased",
+                "Being too simple"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "Which algorithm uses the concept of 'support vectors'?",
+            "options": [
+                "KNN",
+                "Naive Bayes",
+                "SVM",
+                "Linear Regression"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "In Logistic Regression, if the Sigmoid output is 0.7, what is the most likely class prediction (with a 0.5 threshold)?",
+            "options": [
+                "0",
+                "1",
+                "Unknown",
+                "Both"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "Which splitting criterion is commonly used in Decision Trees besides Entropy?",
+            "options": [
+                "Gini Impurity",
+                "Standard Deviation",
+                "Variance",
+                "Correlation"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "Naive Bayes is particularly efficient for which type of data?",
+            "options": [
+                "Images",
+                "Text (like emails or documents)",
+                "Audio",
+                "Video"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "In K-Means, the initial placement of centroids often affects the final result. This is solved by:",
+            "options": [
+                "Using more data",
+                "Running the algorithm multiple times with different initializations (K-Means++)",
+                "Reducing K",
+                "Increasing the number of iterations"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "What does a 'Coefficient' represent in Linear Regression?",
+            "options": [
+                "The error rate",
+                "The weight or impact an independent variable has on the dependent variable",
+                "The number of rows",
+                "The intercept"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "What characterizes an 'Ensemble' method?",
+            "options": [
+                "Using only one complex model",
+                "Combining multiple weak learners to create a strong predictive model",
+                "Avoiding data cleaning",
+                "Using only unsupervised algorithms"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "What is 'Pruning' in the context of Decision Trees?",
+            "options": [
+                "Growing the tree as much as possible",
+                "Removing branches that provide little power to reduce complexity and prevent overfitting",
+                "Changing the root node",
+                "Splitting a leaf node"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "What is the mathematical optimization objective of SVM?",
+            "options": [
+                "To minimize accuracy",
+                "To maximize the margin between the hyperplane and the closest data points",
+                "To minimize the number of support vectors",
+                "To maximize the error"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "In Naive Bayes, how do we handle the problem when a specific feature value never appears in the training data for a class?",
+            "options": [
+                "Ignore the class",
+                "Laplace Smoothing (Adding a small constant to counts)",
+                "Deleting the feature",
+                "Stop the training"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "What is 'Coordinate Descent' in some regression optimizations?",
+            "options": [
+                "Changing all parameters at once",
+                "Optimizing one coordinate (parameter) at a time while keeping others fixed",
+                "Descend a mountain",
+                "Randomly choosing directions"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "What does 'Out-of-Bag' (OOB) error refer to in Random Forest?",
+            "options": [
+                "Error caused by missing files",
+                "Evaluation of a tree using data points that were NOT used in its training subset",
+                "The total error of the model",
+                "The error on the training set"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "In Gradient Descent, what happens if the 'Learning Rate' is too high?",
+            "options": [
+                "Convergence is fast",
+                "The model might overshoot the minimum and fail to converge",
+                "The model never moves",
+                "The error stays at zero"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "What is the difference between K-Means and K-Medoids?",
+            "options": [
+                "K-Medoids uses the mean, K-Means uses the median",
+                "K-Medoids uses an actual data point as the center, K-Means uses the calculated average (mean)",
+                "There is no difference",
+                "K-Medoids is for supervised learning"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "Which type of SVM is used for non-linearly separable data?",
+            "options": [
+                "Linear SVM",
+                "Hard-Margin SVM",
+                "Soft-Margin SVM with Kernels",
+                "No SVM can handle it"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "The 'Random' in Random Forest refers to random subset of data AND ______.",
+            "options": [
+                "Random labels",
+                "Random subset of features for each split",
+                "Random number of trees",
+                "Random accuracy values"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "What is the 'Softmax' function typically used for in algorithms that handle more than two classes?",
+            "options": [
+                "To compress the model",
+                "To normalize outputs into a probability distribution over multiple classes",
+                "To calculate the mean",
+                "To delete low-probability samples"
+            ],
+            "answer": 1
+        }
+    ]
+}

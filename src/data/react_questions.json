@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "What is React?",
+            "options": [
+                "A back-end framework",
+                "A JavaScript library for building user interfaces",
+                "A programming language",
+                "A database management system"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "What is the smallest building block of a React application?",
+            "options": [
+                "Props",
+                "State",
+                "Components",
+                "Elements"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "Which of the following is a syntax extension for JavaScript used in React?",
+            "options": [
+                "XML",
+                "JSON",
+                "JSX",
+                "HTML"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "How do you start a React project using Vite?",
+            "options": [
+                "npm start react",
+                "npm create vite@latest",
+                "npx create-react-app",
+                "vite new project"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Which hook is used to manage state in a functional component?",
+            "options": [
+                "useEffect",
+                "useContext",
+                "useState",
+                "useReducer"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "How do you pass data from a parent component to a child component?",
+            "options": [
+                "Using State",
+                "Using Props",
+                "Using Context",
+                "Using Redux"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "Which component in 'react-router-dom' is used to define a navigation link?",
+            "options": [
+                "<A>",
+                "<Link>",
+                "<Href>",
+                "<Route>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "What is the Virtual DOM?",
+            "options": [
+                "A direct copy of the real DOM",
+                "A lightweight representation of the real DOM in memory",
+                "A server-side DOM",
+                "A CSS manipulation tool"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "What does SPA stand for in web development?",
+            "options": [
+                "Simple Page Application",
+                "Single Page Application",
+                "Scripting Page Area",
+                "Static Page Asset"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "How do you handle a click event in React?",
+            "options": [
+                "onclick={handler}",
+                "onClick={handler}",
+                "click={handler}",
+                "on-click={handler}"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "In JSX, how many root elements can a component return?",
+            "options": [
+                "Zero",
+                "Exactly one",
+                "Up to three",
+                "Any number"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "'Props' is a shorthand representing which word?",
+            "options": [
+                "Procedures",
+                "Properties",
+                "Protocols",
+                "Programs"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "Which JavaScript array method is commonly used to render lists in React?",
+            "options": [
+                "forEach()",
+                "filter()",
+                "map()",
+                "reduce()"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "What is typically the entry point file for a React application?",
+            "options": [
+                "index.html",
+                "index.js or main.jsx",
+                "App.css",
+                "package.json"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "Which hook is used for performing side effects like data fetching?",
+            "options": [
+                "useMemo",
+                "useCallback",
+                "useEffect",
+                "useRef"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "How do you embed a JavaScript variable 'userName' inside a JSX tag?",
+            "options": [
+                "<p>userName</p>",
+                "<p>{userName}</p>",
+                "<p>(userName)</p>",
+                "<p>\"userName\"</p>"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "What is the default port for a Vite-based development server?",
+            "options": [
+                "3000",
+                "5173",
+                "8080",
+                "5000"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "How do you specify a CSS class in JSX?",
+            "options": [
+                "class=\"my-class\"",
+                "className=\"my-class\"",
+                "css-class=\"my-class\"",
+                "style=\"my-class\""
+            ],
+            "answer": 1
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "What is a functional component?",
+            "options": [
+                "A component that calculates math",
+                "A JavaScript function that returns JSX",
+                "A built-in React component",
+                "A component with a class keyword"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "Which operator is often used for simple conditional rendering in React?",
+            "options": [
+                "+ operator",
+                "?? operator",
+                "Ternary operator ( ? : )",
+                "== operator"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "What does the dependency array in 'useEffect' control?",
+            "options": [
+                "The return value of the hook",
+                "When the effect function should be re-executed",
+                "The internal state of the component",
+                "The speed of the animation"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "What happens when a component's state is updated?",
+            "options": [
+                "The whole page refreshes",
+                "The component and its children re-render",
+                "The browser closes",
+                "Nothing happens"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "Why is it important to use 'keys' when rendering lists of components?",
+            "options": [
+                "To make the list look better",
+                "To help React identify which items have changed or been moved",
+                "To encrypt the data",
+                "To sort the list automatically"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "What is a 'controlled component' in React forms?",
+            "options": [
+                "A component that cannot be edited",
+                "An input element whose value is controlled by React state",
+                "A component that uses Redux",
+                "A component with an 'id' attribute"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "Which hook from 'react-router-dom' allows you to access dynamic URL parameters?",
+            "options": [
+                "useLocation",
+                "useHistory",
+                "useParams",
+                "useMatch"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "What is a major difference between props and state?",
+            "options": [
+                "Props are functional, state is structural",
+                "Props are read-only to the component, state is managed internally",
+                "State is passed down from parents, props are local",
+                "There is no difference"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "When does 'useEffect(() => { ... }, [])' run?",
+            "options": [
+                "Every time the component renders",
+                "Only when state changes",
+                "Only once, after the initial render (on mount)",
+                "Never"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "Why can't you return multiple adjacent elements from a component without a wrapper?",
+            "options": [
+                "CSS won't work",
+                "JSX must be compiled into a single createElement call",
+                "Browser restriction",
+                "JavaScript doesn't allow it"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "How do you prevent the default form submission behavior in React?",
+            "options": [
+                "return false;",
+                "preventDefault() on the event object",
+                "stopPropagation()",
+                "stopSubmit()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "What is the 'onChange' attribute used for on an <input>?",
+            "options": [
+                "To change the background color",
+                "To trigger a function when the input value changes",
+                "To submit the form",
+                "To make the input read-only"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "How can you conditionally apply a CSS class based on a state 'isActive'?",
+            "options": [
+                "className={isActive ? 'active' : ''}",
+                "className='isActive'",
+                "class={isActive}",
+                "if(isActive) class='active'"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "Which component provides the context for navigation in React Router?",
+            "options": [
+                "<Switch>",
+                "<Route>",
+                "<BrowserRouter>",
+                "<Link>"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "How should you update an object state variable 'user' with a new name?",
+            "options": [
+                "setUser({ name: 'NewName' })",
+                "user.name = 'NewName'",
+                "setUser(prev => ({ ...prev, name: 'NewName' }))",
+                "user.push('NewName')"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "What is 'component composition'?",
+            "options": [
+                "Breaking a component into smaller pieces",
+                "The process of combining smaller components to build a larger UI",
+                "Writing components in different files",
+                "Using Redux with components"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "What is a core 'Rule of Hooks'?",
+            "options": [
+                "Call hooks inside loops",
+                "Call hooks only at the top level of React functions",
+                "Call hooks inside nested functions",
+                "Call hooks only in class components"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "What is the purpose of a Fragment (<>...</>)?",
+            "options": [
+                "To define a new component type",
+                "To group multiple elements without adding an extra node to the DOM",
+                "To create a flexible box",
+                "To handle errors"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "Can you pass a function as a prop to a component?",
+            "options": [
+                "No, props only support data types",
+                "Yes, just like any other value",
+                "Yes, but only in class components",
+                "Only if it is an arrow function"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "What is one reason to favor functional components with hooks over class components?",
+            "options": [
+                "Class components are faster",
+                "Hooks allow better logic reuse and cleaner code",
+                "Functional components are only for simple UI",
+                "Classes are deprecated in React"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "What is a 'hook' in React?",
+            "options": [
+                "A CSS selector",
+                "A special function that lets functional components use state and lifecycle features",
+                "An HTML attribute",
+                "A terminal command"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "How do you render a component <Alert /> only if 'hasError' is true?",
+            "options": [
+                "hasError && <Alert />",
+                "if(hasError) <Alert />",
+                "hasError ?? <Alert />",
+                "render(<Alert />) if hasError"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "How does the Virtual DOM optimize application performance?",
+            "options": [
+                "By reloading the browser faster",
+                "By minimizing direct manipulation of the real DOM through a 'diffing' algorithm",
+                "By caching the server-side code",
+                "By using faster CSS"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "What is the purpose of the cleanup function returned by 'useEffect'?",
+            "options": [
+                "To reset the component's state",
+                "To perform tasks like removing event listeners or canceling subscriptions before unmount",
+                "To delete the Virtual DOM",
+                "To restart the component lifecycle"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "What is 'lifting state up' in React?",
+            "options": [
+                "Moving state to a lower-level component",
+                "Moving state to a common ancestor shared by components that need to share data",
+                "Using a global database",
+                "Adding more state variables"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "How does React handle browser events to ensure cross-browser compatibility?",
+            "options": [
+                "By using jQuery",
+                "By wrapping native events into SyntheticEvents",
+                "By writing custom CSS for each browser",
+                "By ignoring browser events"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "What is 'Reconciliation' in React?",
+            "options": [
+                "The process of merging two projects",
+                "The algorithm React uses to update the UI with new data in the Virtual DOM",
+                "The process of fixing merge conflicts",
+                "The login process"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "Why is it discouraged to update state directly (e.g., this.state.val = 1)?",
+            "options": [
+                "It is too slow",
+                "It does not trigger a re-render of the component",
+                "It causes a memory leak",
+                "It is not valid JS syntax"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "Which of these might cause a 'stale closure' issue in a 'useEffect' hook?",
+            "options": [
+                "Not having a cleanup function",
+                "Referencing a state variable that isn't included in the dependency array",
+                "Using too many hooks",
+                "Applying illegal CSS"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "How do you handle multiple input fields with one 'onChange' handler?",
+            "options": [
+                "By using many if/else blocks",
+                "By using the [event.target.name] property to dynamically update the state key",
+                "By using different functions for each",
+                "It is impossible"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "What is the primary function of <React.StrictMode>?",
+            "options": [
+                "To make the code run faster",
+                "To help identify potential problems and double-render components in dev to detect side effects",
+                "To prevent users from using the console",
+                "To force dark mode"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "What is a main difference between 'useMemo' and 'useCallback'?",
+            "options": [
+                "useMemo returns JSX, useCallback returns CSS",
+                "useMemo memoizes a value, useCallback memoizes a function instance",
+                "useMemo is for classes, useCallback for functions",
+                "They are identical in every way"
+            ],
+            "answer": 1
+        }
+    ]
+}

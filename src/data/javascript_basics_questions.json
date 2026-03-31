@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "Which keyword is used to declare a variable that cannot be reassigned?",
+            "options": [
+                "var",
+                "let",
+                "const",
+                "static"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "What is the result of 'typeof 42'?",
+            "options": [
+                "string",
+                "number",
+                "boolean",
+                "undefined"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "Which of these is a 'falsy' value in JavaScript?",
+            "options": [
+                "1",
+                "true",
+                "0",
+                "'hello'"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "How do you write a single-line comment in JavaScript?",
+            "options": [
+                "// comment",
+                "/* comment */",
+                "# comment",
+                "<!-- comment -->"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Which operator is used for strict equality (both value and type)?",
+            "options": [
+                "=",
+                "==",
+                "===",
+                "!="
+            ],
+            "answer": 2
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "What does 'console.log()' do?",
+            "options": [
+                "Displays an alert",
+                "Prints output to the web console",
+                "Saves data to a database",
+                "Stops execution"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "Which built-in method adds an element to the end of an array?",
+            "options": [
+                "pop()",
+                "shift()",
+                "push()",
+                "unshift()"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "How do you create a function in JavaScript?",
+            "options": [
+                "function myFunc()",
+                "def myFunc()",
+                "func myFunc()",
+                "new function myFunc()"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "In 'let x = 10;', what is 'x'?",
+            "options": [
+                "A constant",
+                "A variable",
+                "A function",
+                "An object"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "Which statement is used to exit a loop?",
+            "options": [
+                "continue",
+                "exit",
+                "stop",
+                "break"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "What is the result of '5 + \"5\"' in JavaScript?",
+            "options": [
+                "10",
+                "55",
+                "TypeError",
+                "NaN"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "Which data type is used for true/false values?",
+            "options": [
+                "String",
+                "Number",
+                "Boolean",
+                "Object"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "How do you access the first element of an array 'arr'?",
+            "options": [
+                "arr[1]",
+                "arr[0]",
+                "arr.first",
+                "arr.get(0)"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "What does the 'null' value represent?",
+            "options": [
+                "An undeclared variable",
+                "The intentional absence of any value",
+                "A zero value",
+                "An error"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "Which loop guarantees that the code block is executed at least once?",
+            "options": [
+                "for",
+                "while",
+                "do-while",
+                "forEach"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "How do you check the length of a string 'str'?",
+            "options": [
+                "str.length()",
+                "str.count",
+                "str.len",
+                "str.length"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "Which operator is the logical AND?",
+            "options": [
+                "&",
+                "||",
+                "&&",
+                "!"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "What is an object in JavaScript?",
+            "options": [
+                "A collection of key-value pairs",
+                "A type of loop",
+                "A list of numbers",
+                "A CSS selector"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "Which keyword is used to return a value from a function?",
+            "options": [
+                "output",
+                "send",
+                "return",
+                "result"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "What is the purpose of 'else if'?",
+            "options": [
+                "To end an if statement",
+                "To check another condition if the first is false",
+                "To repeat a condition",
+                "To declare a variable"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "What is the difference between 'let' and 'var'?",
+            "options": [
+                "let is block-scoped, var is function-scoped",
+                "var is block-scoped, let is function-scoped",
+                "They are identical",
+                "var is for constants only"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "What is the result of 'typeof null'?",
+            "options": [
+                "null",
+                "undefined",
+                "object",
+                "string"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "Which array method removes the LAST element?",
+            "options": [
+                "shift()",
+                "pop()",
+                "slice()",
+                "splice()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "How do you declare a function expression?",
+            "options": [
+                "const myFunc = function() {}",
+                "function myFunc() {}",
+                "const myFunc = () => {}",
+                "None of the above"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "What is 'hoisting' in JavaScript?",
+            "options": [
+                "Moving declarations to the top of their scope",
+                "Removing unused variables",
+                "A way to speed up code",
+                "A method for arrays"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "What value is returned by a function that doesn't have a return statement?",
+            "options": [
+                "null",
+                "0",
+                "undefined",
+                "false"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "How do you add an element to the BEGINNING of an array?",
+            "options": [
+                "push()",
+                "unshift()",
+                "shift()",
+                "pop()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "Which of these is NOT a comparison operator?",
+            "options": [
+                "==",
+                "===",
+                "=",
+                "!="
+            ],
+            "answer": 2
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "What is the result of '!!\"hello\"'?",
+            "options": [
+                "true",
+                "false",
+                "\"hello\"",
+                "NaN"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "What does a 'switch' statement do?",
+            "options": [
+                "Toggles a light",
+                "Executes code based on multiple possible values of an expression",
+                "Repeats code indefinitely",
+                "Checks for network errors"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "How do you access the property 'name' of an object 'user'?",
+            "options": [
+                "user->name",
+                "user.name",
+                "user['name']",
+                "Both user.name and user['name']"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "What is Global Scope?",
+            "options": [
+                "Variables accessible only inside a function",
+                "Variables accessible from anywhere in the script",
+                "Variables accessible only inside a loop",
+                "Variables that cannot be changed"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "What is the result of 'true && false || true'?",
+            "options": [
+                "true",
+                "false",
+                "undefined",
+                "NaN"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "Which method is used to convert a string to an integer?",
+            "options": [
+                "Integer.parse()",
+                "parseInt()",
+                "toString()",
+                "toInt()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "What does 'NaN' stand for?",
+            "options": [
+                "New and Null",
+                "Not a Number",
+                "Node and Net",
+                "Notice and Note"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "How can you tell if a variable 'arr' is an array?",
+            "options": [
+                "typeof arr === 'array'",
+                "arr.isArray()",
+                "Array.isArray(arr)",
+                "arr instance of Array"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "What happens if you define a variable without 'var', 'let', or 'const'?",
+            "options": [
+                "It becomes a local variable",
+                "It becomes a global variable (in non-strict mode)",
+                "It triggers a syntax error immediately",
+                "It is ignored"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "What is the purpose of parameters in a function?",
+            "options": [
+                "To name the function",
+                "To pass data into the function",
+                "To return data from the function",
+                "To make the function run faster"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "Which loop is best used when you know the exact number of iterations?",
+            "options": [
+                "while",
+                "for",
+                "do-while",
+                "None of these"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "What is the result of 'typeof undefined'?",
+            "options": [
+                "undefined",
+                "null",
+                "string",
+                "object"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "What is 'Block Scope' exactly?",
+            "options": [
+                "Scope defined by a function",
+                "Scope defined by curly braces {} with let or const",
+                "Scope of the entire file",
+                "Scope of a module"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "What is the result of '[] == ![]' in JavaScript?",
+            "options": [
+                "true",
+                "false",
+                "TypeError",
+                "undefined"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "What is a closure?",
+            "options": [
+                "A way to close a browser tab",
+                "A function that remembers variables from its outer scope",
+                "A function that has finished executing",
+                "A method to delete objects"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "What is the difference between '==' and '==='?",
+            "options": [
+                "== checks value only; === checks value and type",
+                "=== checks value only; == checks value and type",
+                "They are exactly the same",
+                "== is for strings only"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "What is the result of 'typeof NaN'?",
+            "options": [
+                "number",
+                "NaN",
+                "undefined",
+                "object"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "Which of the following creates a new array WITHOUT changing the original?",
+            "options": [
+                "push()",
+                "splice()",
+                "slice()",
+                "pop()"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "What does 'use strict' do?",
+            "options": [
+                "Enforces stricter parsing and error handling",
+                "Makes the code run faster",
+                "Enables advanced GUI features",
+                "Hides all console logs"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "What is the scope of a variable declared with 'const' inside a 'for' loop?",
+            "options": [
+                "The whole function",
+                "The whole script",
+                "Just that specific iteration of the loop",
+                "The entire loop block"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "What happens if you try to modify a 'const' object's property?",
+            "options": [
+                "It throws an error",
+                "It works successfully",
+                "It works but logs a warning",
+                "It creates a new object"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "What is the value of 'a' in `let a = (true + true)`?",
+            "options": [
+                "true",
+                "2",
+                "truetrue",
+                "NaN"
+            ],
+            "answer": 1
+        }
+    ]
+}

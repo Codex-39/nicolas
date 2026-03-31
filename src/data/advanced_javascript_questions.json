@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "What is lexical scope in JavaScript?",
+            "options": [
+                "A scope that is determined at runtime",
+                "A scope that is determined at the time of code authoring",
+                "A scope that only exists inside objects",
+                "A scope that allows access to global variables only"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "Which keyword is NOT affected by hoisting in the same way as 'var'?",
+            "options": [
+                "let",
+                "function",
+                "var",
+                "None of the above"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "What does the 'this' keyword refer to in a global context (non-strict mode)?",
+            "options": [
+                "The current function",
+                "The window object",
+                "null",
+                "undefined"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "How do you export a named variable 'x' from a module?",
+            "options": [
+                "export default x;",
+                "export { x };",
+                "module.export = x;",
+                "public x;"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Which method is used to select an element by its ID?",
+            "options": [
+                "querySelector()",
+                "getElementById()",
+                "getElementsByClassName()",
+                "selectById()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "What is the purpose of 'addEventListener'?",
+            "options": [
+                "To create a new HTML element",
+                "To attach an event handler to an element",
+                "To style an element",
+                "To delete an element"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "A Promise in JavaScript can be in which states?",
+            "options": [
+                "Pending, Fulfilled, Rejected",
+                "Starting, Working, Done",
+                "Open, Closed, Error",
+                "Active, Inactive, Completed"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "What does the 'await' keyword do?",
+            "options": [
+                "Stops the entire script",
+                "Pauses the execution of an async function until a promise is resolved",
+                "Creates a new promise",
+                "Tells the browser to wait for user input"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "Which operator is the spread operator?",
+            "options": [
+                "...",
+                "&&",
+                "||",
+                "??"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "What is template literal syntax?",
+            "options": [
+                "'string'",
+                "\"string\"",
+                "`string`",
+                "[string]"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "What is destructuring in ES6?",
+            "options": [
+                "Deleting an object property",
+                "Extracting values from arrays or objects into distinct variables",
+                "Converting an object to a string",
+                "A way to loop through an object"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "How do you create an arrow function?",
+            "options": [
+                "const f = () => {}",
+                "function f() {}",
+                "f = function() {}",
+                "arrow f() {}"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "What does 'fetch()' return?",
+            "options": [
+                "The data itself",
+                "A Promise",
+                "An integer status code",
+                "A string"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "Which method converts a Promise result to JSON?",
+            "options": [
+                "res.toJSON()",
+                "JSON.stringify(res)",
+                "res.json()",
+                "res.parse()"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "What is 'import' used for?",
+            "options": [
+                "Reading a local text file",
+                "Loading functions or variables from another module",
+                "Adding a CSS file to HTML",
+                "Saving data to a database"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "What is the result of applying 'spread' on an array `[1, 2]`?",
+            "options": [
+                "1, 2",
+                "[1, 2]",
+                "[[1, 2]]",
+                "An error"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "How do you handle errors in async/await?",
+            "options": [
+                "catch() method",
+                "if/else",
+                "try/catch block",
+                "error() function"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "Which DOM method appends a node as the last child of a parent?",
+            "options": [
+                "addNode()",
+                "appendChild()",
+                "insertLast()",
+                "attach()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "What is default parameter in functions?",
+            "options": [
+                "A parameter that is always required",
+                "A parameter that takes a value if none is provided",
+                "The name of the function",
+                "A global variable used inside a function"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "What is the purpose of 'export default'?",
+            "options": [
+                "To export all variables at once",
+                "To export one main value from a module",
+                "To make a variable global",
+                "To protect a variable from being changed"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "What is a closure in JavaScript?",
+            "options": [
+                "A function that has no parameters",
+                "A function that has access to its outer function's scope even after the outer function has finished",
+                "A way to close a database connection",
+                "A method to delete a function"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "What is the 'Temporal Dead Zone' (TDZ)?",
+            "options": [
+                "A period when the browser stops responding",
+                "The region where a variable is unreachable before its declaration",
+                "A state in the event loop",
+                "A way to handle server timeouts"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "How does 'this' behave in arrow functions?",
+            "options": [
+                "It refers to the object that called the function",
+                "It refers to the global object",
+                "It inherits 'this' from the lexically surrounding scope",
+                "It is always undefined"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "What is the difference between 'export' and 'export default'?",
+            "options": [
+                "'export' is for variables, 'export default' is for functions",
+                "A module can have multiple 'exports' but only one 'export default'",
+                "'export default' is for local use only",
+                "There is no difference"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "What is Event Bubbling?",
+            "options": [
+                "When an event fires multiple times",
+                "The process where an event starts at the target and moves up the nested elements",
+                "The process where an event starts at the top and moves down",
+                "A way to stop an event from firing"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "What does 'Promise.all()' do?",
+            "options": [
+                "Registers a callback for every promise",
+                "Waits for all promises in an array to resolve",
+                "Cancels all running promises",
+                "Converts objects into promises"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "In 'const { name } = user;', what is happening?",
+            "options": [
+                "Creating a property",
+                "Destructuring the 'name' property from the 'user' object",
+                "Deleting 'name' from 'user'",
+                "Cloning the 'user' object"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "What is the rest operator doing in `function add(...args)`?",
+            "options": [
+                "Ending the function",
+                "Allowing the function to take an indefinite number of arguments as an array",
+                "Repeating the arguments",
+                "Subtracting the arguments"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "How do you stop event propagation?",
+            "options": [
+                "event.stop()",
+                "event.preventDefault()",
+                "event.stopPropagation()",
+                "event.end()"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "What is Event Delegation?",
+            "options": [
+                "Deleting an event listener",
+                "Adding one event listener to a parent to handle events on its children",
+                "Assigning an event to a different element",
+                "Passing an event to a web worker"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "What happens during variable hoisting with 'var'?",
+            "options": [
+                "The variable is moved to the bottom",
+                "Only the declaration is moved to the top, initialized with undefined",
+                "The entire assignment is moved to the top",
+                "Nothing happens"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "What is a 'finally' block in Promises used for?",
+            "options": [
+                "Handling successful results only",
+                "Handling errors only",
+                "Running code regardless of the promise outcome",
+                "Ending the script"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "What is the benefit of template literals over standard strings?",
+            "options": [
+                "They use less memory",
+                "They allow multiline strings and string interpolation",
+                "They are automatically converted to JSON",
+                "They are faster to process"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "What is the result of `['a', 'b'].concat(['c'])` using spread syntax?",
+            "options": [
+                "`[...['a', 'b'], 'c']`",
+                "`['a', 'b', ...'c']`",
+                "`[...'ab', ...'c']`",
+                "`['abc']`"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "Which function is used to create an element in the DOM?",
+            "options": [
+                "newElement()",
+                "createElement()",
+                "appendChild()",
+                "querySelector()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "How do you import a default export from a module?",
+            "options": [
+                "import { MyVar } from './module'",
+                "import MyVar from './module'",
+                "import * as MyVar from './module'",
+                "require('./module')"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "What does `this` refer to inside a regular function in strict mode?",
+            "options": [
+                "Global object",
+                "The function itself",
+                "undefined",
+                "null"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "What is the purpose of 'innerHTML'?",
+            "options": [
+                "To change the font color",
+                "To get or set the HTML content inside an element",
+                "To delete the element",
+                "To link a CSS file"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "What state is a Promise in initially?",
+            "options": [
+                "Fulfilled",
+                "Rejected",
+                "Pending",
+                "Settled"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "Is `let` hoisted?",
+            "options": [
+                "No",
+                "Yes, but stays in TDZ until declaration",
+                "Yes, exactly like var",
+                "Only inside loops"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "What's the output? `console.log(this)` in an arrow function inside an object method?",
+            "options": [
+                "The object itself",
+                "The window/global object",
+                "The enclosing function's 'this'",
+                "undefined"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "What happens with function hoisting for function expressions?",
+            "options": [
+                "They are hoisted completely",
+                "Only the variable name is hoisted, result is undefined (if var) or TDZ (if let/const)",
+                "They are not hoisted at all",
+                "They are moved to the end"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "What is lexical environment?",
+            "options": [
+                "A dictionary used by the coder",
+                "A data structure that holds identifier-variable mapping for the current scope",
+                "The browser's console history",
+                "A way to compress JS code"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "How does destructuring handle nested objects?",
+            "options": [
+                "It can't handle them",
+                "By using nested curly braces: `const { a: { b } } = obj;`",
+                "By using dots: `const { a.b } = obj;`",
+                "By converting them to arrays"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "What happens if a Promise is not resolved or rejected?",
+            "options": [
+                "It crashes the tab",
+                "It stays in 'pending' state forever",
+                "It automatically rejects after 30 seconds",
+                "It resolves with undefined"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "What is the 'Module Pattern' in JavaScript used for?",
+            "options": [
+                "Inheritance",
+                "Encapsulation and private scope",
+                "Managing file sizes",
+                "Defining global variables"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "What is the difference between event bubbling and event capturing?",
+            "options": [
+                "They are the same",
+                "Bubbling goes up; Capturing goes down",
+                "Capturing is only for mouse events",
+                "Bubbling is only for keyboard events"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "Can you use 'await' outside of an async function?",
+            "options": [
+                "Yes, everywhere",
+                "Only in the top-level of a module",
+                "No, never",
+                "Only inside loops"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "What is a 'Closure' exactly formed by?",
+            "options": [
+                "The function and its variables",
+                "The function body only",
+                "The function bundled together with its lexical environment",
+                "The function's return statement"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "What's the result of `[...\"hello\"]`?",
+            "options": [
+                "[\"hello\"]",
+                "[\"h\", \"e\", \"l\", \"l\", \"o\"]",
+                "\"hello\"",
+                "An error"
+            ],
+            "answer": 1
+        }
+    ]
+}

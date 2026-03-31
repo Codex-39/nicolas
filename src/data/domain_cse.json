@@ -1,0 +1,52 @@
+{
+    "domains": [
+        {
+            "id": "web_dev",
+            "name": "Web Development"
+        },
+        {
+            "id": "full_stack",
+            "name": "Full Stack Development"
+        },
+        {
+            "id": "data_science",
+            "name": "Data Science"
+        },
+        {
+            "id": "machine_learning",
+            "name": "Machine Learning"
+        },
+        {
+            "id": "ai",
+            "name": "Artificial Intelligence"
+        },
+        {
+            "id": "software_dev",
+            "name": "Software Development"
+        },
+        {
+            "id": "cloud",
+            "name": "Cloud Computing"
+        },
+        {
+            "id": "cyber_security",
+            "name": "Cyber Security"
+        },
+        {
+            "id": "blockchain",
+            "name": "Blockchain"
+        },
+        {
+            "id": "devops",
+            "name": "DevOps"
+        },
+        {
+            "id": "systems",
+            "name": "Systems & Networking"
+        },
+        {
+            "id": "game_dev",
+            "name": "Game Development"
+        }
+    ]
+}

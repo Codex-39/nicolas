@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "What kind of database is MongoDB?",
+            "options": [
+                "Relational (SQL)",
+                "Document-oriented (NoSQL)",
+                "Graph database",
+                "Key-value only"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "Which format does MongoDB use to store data internally?",
+            "options": [
+                "XML",
+                "BSON (Binary JSON)",
+                "CSV",
+                "YAML"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "In MongoDB, a group of documents is called a:",
+            "options": [
+                "Table",
+                "Collection",
+                "Folder",
+                "Array"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "Which of these is the equivalent of a 'Row' in a relational database?",
+            "options": [
+                "Field",
+                "Collection",
+                "Document",
+                "Index"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Which unique field is automatically added to every MongoDB document?",
+            "options": [
+                "_id",
+                "id",
+                "uuid",
+                "key"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "Which command is used to insert a single document into a collection?",
+            "options": [
+                "db.collection.add()",
+                "db.collection.insertOne()",
+                "db.collection.create()",
+                "db.collection.push()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "What is 'MongoDB Atlas'?",
+            "options": [
+                "A map of MongoDB servers",
+                "A cloud-based database-as-a-service",
+                "A local desktop application",
+                "An operating system"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "How do you find all documents in a collection named 'users'?",
+            "options": [
+                "db.users.get()",
+                "db.users.find()",
+                "db.users.query()",
+                "db.users.selectAll()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "What does the 'CRUD' in CRUD operations stand for?",
+            "options": [
+                "Create, Run, Update, Delete",
+                "Create, Read, Update, Delete",
+                "Copy, Read, Use, Delete",
+                "Compute, Read, Update, Deploy"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "Which operator is used to check for equality in a query?",
+            "options": [
+                "$eq",
+                "$equal",
+                "$match",
+                "$is"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "MongoDB's flexible schema means:",
+            "options": [
+                "Every document must have the same fields",
+                "Documents in the same collection can have different fields",
+                "The database doesn't need a name",
+                "SQL queries are supported natively"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "Which command is used to remove a document that matches a condition?",
+            "options": [
+                "db.collection.remove()",
+                "db.collection.deleteOne()",
+                "db.collection.drop()",
+                "db.collection.clear()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "Which operator stands for 'Greater Than'?",
+            "options": [
+                "$gt",
+                "$more",
+                "$gtr",
+                "$max"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "Which operator stands for 'Less Than'?",
+            "options": [
+                "$lt",
+                "$less",
+                "$small",
+                "$min"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "What is a 'Cluster' in MongoDB Atlas?",
+            "options": [
+                "A single document",
+                "A group of servers where your data is stored",
+                "A command-line tool",
+                "An error message"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "How do you update a field in a document?",
+            "options": [
+                "$change",
+                "$modify",
+                "$set",
+                "$put"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "Which module is commonly used to connect Node.js to MongoDB?",
+            "options": [
+                "mongodb",
+                "sql-node",
+                "db-connect",
+                "express-db"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "What is the purpose of the 'find' method's first argument?",
+            "options": [
+                "To sort results",
+                "To specify query criteria (filters)",
+                "To limit results",
+                "To choose fields to display"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "What characterizes a NoSQL database like MongoDB?",
+            "options": [
+                "No support for relationships",
+                "Non-tabular, often schema-less or with flexible schemas",
+                "Requires a fixed ID size",
+                "Only stores numbers"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "What command displays all databases in the MongoDB shell?",
+            "options": [
+                "show dbs",
+                "list databases",
+                "get all",
+                "db.list()"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "What is the difference between BSON and JSON?",
+            "options": [
+                "They are exactly the same",
+                "BSON is a binary representation of JSON and supports more data types (like Date and Binary)",
+                "JSON is faster to parse for MongoDB",
+                "BSON is only for encryption"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "Which method is used to retrieve only the first document that matches a query?",
+            "options": [
+                "db.collection.first()",
+                "db.collection.findOne()",
+                "db.collection.get(1)",
+                "db.collection.matchOne()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "What does the $in operator do?",
+            "options": [
+                "Inserts a document",
+                "Checks if a value matches any value in an array",
+                "Checks if a field is null",
+                "Increments a value"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "What is 'Indexing' in MongoDB?",
+            "options": [
+                "Naming the database",
+                "A data structure that improves the speed of data retrieval operations on a collection",
+                "A way to delete old data",
+                "Arranging documents by size"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "Which command creates an index on the 'email' field in ascending order?",
+            "options": [
+                "db.collection.index({email: 1})",
+                "db.collection.createIndex({email: 1})",
+                "db.collection.addKey('email')",
+                "db.collection.sort('email')"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "How do you specify multiple conditions in a query where ALL must be true?",
+            "options": [
+                "Using the $or operator",
+                "Using the $and operator or comma-separated fields",
+                "Using the $all operator",
+                "It's not possible"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "What is 'Mongoose' in the context of Node.js and MongoDB?",
+            "options": [
+                "A database engine",
+                "An Object Data Modeling (ODM) library",
+                "A frontend framework",
+                "A security plugin"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "Which operator is used to increment a numeric field?",
+            "options": [
+                "$add",
+                "$plus",
+                "$inc",
+                "$sum"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "How do you sort find results by 'age' in descending order?",
+            "options": [
+                "db.collection.find().sort({age: -1})",
+                "db.collection.find().order('age', 'desc')",
+                "db.collection.find().sortBy('age')",
+                "db.collection.find().limit('age')"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "What is 'Projection' in a MongoDB find query?",
+            "options": [
+                "Enlarging the document",
+                "The second argument that specifies which fields to include or exclude in the results",
+                "A 3D view of data",
+                "Projecting data to a remote server"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "Which operator matches documents where a field does NOT equal a specified value?",
+            "options": [
+                "$diff",
+                "$ne",
+                "$not",
+                "$no"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "How do you insert multiple documents at once?",
+            "options": [
+                "db.collection.insert()",
+                "db.collection.bulkAdd()",
+                "db.collection.insertMany()",
+                "db.collection.pushAll()"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "What is a 'Primary Key' in MongoDB?",
+            "options": [
+                "The first field created",
+                "The _id field",
+                "A unique index manually created by the user",
+                "The collection name"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "Which method deletes an entire collection?",
+            "options": [
+                "db.collection.delete()",
+                "db.collection.drop()",
+                "db.collection.clear()",
+                "db.dropCollection()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "What does the 'limit()' method do?",
+            "options": [
+                "Limits the file size",
+                "Specifies the maximum number of documents the cursor will return",
+                "Limits the number of fields in a document",
+                "Limits the CPU usage"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "How do you count the number of documents in a collection?",
+            "options": [
+                "db.collection.length()",
+                "db.collection.countDocuments()",
+                "db.collection.total()",
+                "db.collection.find().all()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "What is the purpose of 'dotenv' when connecting to MongoDB?",
+            "options": [
+                "To speed up the connection",
+                "To keep the connection string (with passwords) secure in a .env file",
+                "To format the data",
+                "To create a local database"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "Which operator is used to check for the existence of a field?",
+            "options": [
+                "$has",
+                "$exists",
+                "$isSet",
+                "$field"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "What is a 'Compound Index'?",
+            "options": [
+                "An index with a password",
+                "An index that holds multiple fields",
+                "An index that is shared across collections",
+                "An index for math equations"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "Which method updates only the first document that matches a query?",
+            "options": [
+                "db.collection.update()",
+                "db.collection.updateOne()",
+                "db.collection.setOne()",
+                "db.collection.modify()"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "What is the 'Aggregation Framework' in MongoDB?",
+            "options": [
+                "A tool for UI design",
+                "A multi-stage pipeline for transforming and processing data (like grouping and summing)",
+                "A way to backup the database",
+                "A method for user authentication"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "What is a 'Replica Set'?",
+            "options": [
+                "A set of duplicate databases",
+                "A group of mongod processes that maintain the same data set, providing redundancy and high availability",
+                "A collection of temporary documents",
+                "A tool for code replication"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "What is 'Sharding' in MongoDB?",
+            "options": [
+                "Deleting small parts of data",
+                "A method for distributing data across multiple machines to support very large data sets and high throughput operations",
+                "Encrypting data blocks",
+                "Connecting different database types together"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "In an aggregation pipeline, what does the $match stage do?",
+            "options": [
+                "Combines two collections",
+                "Filters documents based on a condition, similar to find()",
+                "Calculates a sum",
+                "Sorts the data"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "In an aggregation pipeline, what does the $group stage do?",
+            "options": [
+                "Connects users together",
+                "Groups input documents by a specified identifier expression and applies accumulator expressions",
+                "Deletes a group of files",
+                "Renames a collection"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "What is the 'Working Set' in MongoDB?",
+            "options": [
+                "The group of people using the DB",
+                "The portion of data and indexes that the application uses frequently and should ideally fit in RAM",
+                "The list of all documents",
+                "The set of CRUD operations"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "What happens during a MongoDB 'Primary Election'?",
+            "options": [
+                "Users vote for a feature",
+                "Replica set members elect a new primary if the current primary becomes unavailable",
+                "The database choosing a name",
+                "A scheduled backup starts"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "What is a 'TTL' (Time To Live) index?",
+            "options": [
+                "An index that never expires",
+                "A special index that automatically removes documents from a collection after a certain amount of time",
+                "An index for tracking user activity",
+                "A fast-loading index"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "What are 'Atomic' operations in MongoDB?",
+            "options": [
+                "Operations that work with atoms",
+                "Operations that are completed entirely or not at all (at the document level)",
+                "Extremely fast operations",
+                "Radioactive data tracking"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "What is a 'Capped Collection'?",
+            "options": [
+                "A collection with a limit on fields",
+                "A fixed-sized collection that automatically overwrites its oldest entries when it reaches its maximum size",
+                "A password-protected collection",
+                "A collection used for primary keys only"
+            ],
+            "answer": 1
+        }
+    ]
+}

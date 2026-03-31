@@ -1,0 +1,52 @@
+{
+    "domains": [
+        {
+            "id": "embedded",
+            "name": "Embedded Systems"
+        },
+        {
+            "id": "vlsi",
+            "name": "VLSI Design"
+        },
+        {
+            "id": "iot",
+            "name": "Internet of Things"
+        },
+        {
+            "id": "communication",
+            "name": "Communication Systems"
+        },
+        {
+            "id": "signal_processing",
+            "name": "Signal Processing"
+        },
+        {
+            "id": "robotics",
+            "name": "Robotics"
+        },
+        {
+            "id": "wireless",
+            "name": "Wireless Technology"
+        },
+        {
+            "id": "semiconductors",
+            "name": "Semiconductor Engineering"
+        },
+        {
+            "id": "automation",
+            "name": "Industrial Automation"
+        },
+        {
+            "id": "networking",
+            "name": "Networking"
+        },
+        {
+            "id": "ai_hardware",
+            "name": "AI Hardware"
+        },
+        {
+            "id": "defence",
+            "name": "Defence Electronics"
+        }
+    ]
+}

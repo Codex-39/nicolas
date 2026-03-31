@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "Which property is used to define a flex container?",
+            "options": [
+                "display: block",
+                "display: flex",
+                "display: grid",
+                "display: inline"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "In Flexbox, what is the default value of the flex-direction property?",
+            "options": [
+                "row",
+                "column",
+                "row-reverse",
+                "column-reverse"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "Which property is used to align flex items along the main axis?",
+            "options": [
+                "align-items",
+                "align-content",
+                "justify-content",
+                "flex-wrap"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "What does the 'gap' property do in Flexbox and Grid?",
+            "options": [
+                "Sets the margin outside the container",
+                "Sets the padding inside items",
+                "Sets the spacing between rows and columns",
+                "Sets the border width"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "Which property is used to create a CSS Grid container?",
+            "options": [
+                "display: grid",
+                "display: table",
+                "display: flex",
+                "display: layout"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "In a flex container with flex-direction: row, what is the main axis?",
+            "options": [
+                "Vertical",
+                "Horizontal",
+                "Diagonal",
+                "Z-axis"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "Which property allows flex items to wrap onto multiple lines?",
+            "options": [
+                "flex-flow",
+                "flex-wrap",
+                "flex-basis",
+                "display-wrap"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "What is the default value of the justify-content property?",
+            "options": [
+                "center",
+                "space-between",
+                "flex-start",
+                "flex-end"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "Which unit is unique to CSS Grid for fractional spacing?",
+            "options": [
+                "px",
+                "em",
+                "fr",
+                "%"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "Which property aligns a single flex item differently from others along the cross axis?",
+            "options": [
+                "align-items",
+                "align-self",
+                "justify-self",
+                "order"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "How do you specify the number of columns in a CSS Grid?",
+            "options": [
+                "grid-columns",
+                "grid-template-columns",
+                "columns",
+                "grid-row-columns"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "Which Flexbox property determines how much a flex item will grow relative to others?",
+            "options": [
+                "flex-shrink",
+                "flex-basis",
+                "flex-grow",
+                "order"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "What is the cross axis if flex-direction is 'column'?",
+            "options": [
+                "Horizontal",
+                "Vertical",
+                "Top",
+                "Bottom"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "In Grid, which property is used to specify the size of the rows?",
+            "options": [
+                "grid-row-size",
+                "grid-template-rows",
+                "row-height",
+                "grid-rows"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "Which property is used to change the order of flex items?",
+            "options": [
+                "index",
+                "z-index",
+                "order",
+                "flex-order"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "What does align-items: center do in a row-based flex container?",
+            "options": [
+                "Centers items horizontally",
+                "Centers items vertically",
+                "Spaces items evenly",
+                "Stretches items to fill height"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "Which CSS Grid function allows you to repeat a column pattern?",
+            "options": [
+                "duplicate()",
+                "loop()",
+                "repeat()",
+                "copy()"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "What is the default behavior of flex items along the cross axis?",
+            "options": [
+                "flex-start",
+                "center",
+                "stretch",
+                "baseline"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "Can you use negative values for the 'order' property?",
+            "options": [
+                "Yes",
+                "No",
+                "Only for the first item",
+                "Depends on the browser"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "Which property is a shorthand for flex-grow, flex-shrink, and flex-basis?",
+            "options": [
+                "flex-flow",
+                "flex",
+                "display-flex",
+                "flex-all"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "Which justify-content value distributes items evenly with half-size spaces on the ends?",
+            "options": [
+                "space-between",
+                "space-around",
+                "space-evenly",
+                "center"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "In Grid, how do you make an item span 3 columns?",
+            "options": [
+                "grid-column: span 3",
+                "grid-column: 3",
+                "grid-span: 3",
+                "column-span: 3"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "What is the difference between 'space-between' and 'space-around'?",
+            "options": [
+                "Between has no end space; Around has equal space on ends",
+                "Around has no end space; Between has equal space",
+                "They are identical",
+                "Between works on main axis; Around on cross"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "Which flex-basis value tells the item to use its default intrinsic size?",
+            "options": [
+                "0",
+                "100%",
+                "auto",
+                "none"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "What does the 'align-content' property control?",
+            "options": [
+                "Alignment of items within a single line",
+                "Space between lines in a multi-line flex container",
+                "The height of flex items",
+                "The width of the container"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "Which Grid property allows you to name areas of the layout?",
+            "options": [
+                "grid-names",
+                "grid-template-areas",
+                "grid-area-names",
+                "grid-layout-map"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "What is the default value of 'flex-shrink'?",
+            "options": [
+                "0",
+                "1",
+                "auto",
+                "none"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "How do you define a grid with two columns where the first is 200px and the second takes the remaining space?",
+            "options": [
+                "grid-template-columns: 200px 1fr",
+                "grid-template-columns: 1fr 200px",
+                "grid-template-columns: 200px auto",
+                "grid-template-columns: repeat(2, 1fr)"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "Which property is used to specify how many columns an item should span and where to start/end?",
+            "options": [
+                "grid-area",
+                "grid-column",
+                "grid-row",
+                "All of the above"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "What happens if a flex item has flex-grow: 2 and another has flex-grow: 1?",
+            "options": [
+                "The first item will always be twice as large",
+                "The first item will take twice as much of the available free space",
+                "The second item will shrink",
+                "Nothing, they grow equally"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "Which value for 'align-items' aligns items based on their text baseline?",
+            "options": [
+                "flex-start",
+                "center",
+                "baseline",
+                "stretch"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "In Grid, what does 'grid-column: 1 / 4' mean?",
+            "options": [
+                "Starts at line 1 and ends at line 4 (spans 3 tracks)",
+                "Spans 1 to 4 columns",
+                "Column 1 through column 4 (spans 4 tracks)",
+                "Spans from index 1 to 4"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "Which property defines the initial size of a flex item before free space is distributed?",
+            "options": [
+                "flex-grow",
+                "flex-shrink",
+                "flex-basis",
+                "width"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "What is the shorthand for 'grid-row-gap' and 'grid-column-gap'?",
+            "options": [
+                "grid-gap",
+                "gap",
+                "spacing",
+                "row-col-gap"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "Which justify-content value ensures equal space between items and equal space to the edges?",
+            "options": [
+                "space-between",
+                "space-around",
+                "space-evenly",
+                "center"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "If you set 'flex-wrap: wrap-reverse', what happens?",
+            "options": [
+                "Items wrap to the next line in reverse order",
+                "Items wrap to the previous line",
+                "Items do not wrap",
+                "Items wrap vertically"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "How do you align content in the center of a Grid cell both horizontally and vertically?",
+            "options": [
+                "place-items: center",
+                "align-items: center",
+                "justify-items: center",
+                "display: center"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "What is the result of 'flex: 1 0 auto'?",
+            "options": [
+                "grow: 1, shrink: 0, basis: auto",
+                "grow: 0, shrink: 1, basis: auto",
+                "grow: 1, shrink: 1, basis: auto",
+                "grow: 0, shrink: 0, basis: auto"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "By default, where are grid items placed if not specified?",
+            "options": [
+                "Randomly",
+                "Consecutively into rows",
+                "Consecutively into columns",
+                "Stacked on top of each other"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "Which property is used of a grid item to make it span multiple rows?",
+            "options": [
+                "grid-row",
+                "grid-template-rows",
+                "row-span",
+                "grid-span-row"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "What is the difference between 'auto-fit' and 'auto-fill' in Grid?",
+            "options": [
+                "auto-fit collapses empty tracks; auto-fill keeps them",
+                "auto-fill collapses empty tracks; auto-fit keeps them",
+                "They are identical in all cases",
+                "auto-fit works only on columns"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "How does 'minmax(100px, 1fr)' behave?",
+            "options": [
+                "The column will be at least 100px and at most 1fr wide",
+                "The column will grow to 1fr then shrink to 100px",
+                "The column size is fixed between 100px and 1fr",
+                "It only works for rows"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "Which property can be used on a flex container to handle overflow items when wrapping?",
+            "options": [
+                "align-content",
+                "align-items",
+                "justify-items",
+                "flex-overflow"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "In Grid, what value does an item have for 'grid-area' if it spans from row 1 to 3 and column 2 to 4?",
+            "options": [
+                "1 / 2 / 3 / 4",
+                "1 / 3 / 2 / 4",
+                "2 / 1 / 4 / 3",
+                "1 / 2 / 4 / 3"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "What happens when a flex item has 'flex-shrink: 0'?",
+            "options": [
+                "It will not shrink even if the container is too small",
+                "It will shrink twice as much",
+                "It will grow to fill space",
+                "It will disappear"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "The 'grid-auto-flow: column' property does what?",
+            "options": [
+                "Fills columns first instead of rows",
+                "Creates new columns automatically",
+                "Makes items stack vertically",
+                "Disables row creation"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "What is a 'flexible length' in Flexbox/Grid?",
+            "options": [
+                "fr unit",
+                "percentage",
+                "em unit",
+                "auto"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "How do you define a grid area spanning from row-start to row-end and col-start to col-end using named areas?",
+            "options": [
+                "grid-area: name",
+                "grid-template-areas",
+                "grid-area-map",
+                "Both A and B"
+            ],
+            "answer": 3
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "Which property allows you to control the alignment of grid items inside their tracks?",
+            "options": [
+                "justify-items and align-items",
+                "justify-content and align-content",
+                "grid-align",
+                "track-align"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "What does 'grid-template: 100px / 1fr 2fr' define?",
+            "options": [
+                "One row of 100px and two columns of 1fr and 2fr",
+                "One column of 100px and two rows",
+                "Two rows and one column",
+                "A grid with 100 tracks"
+            ],
+            "answer": 0
+        }
+    ]
+}

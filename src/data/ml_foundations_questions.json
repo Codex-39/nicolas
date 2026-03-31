@@ -1,0 +1,604 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "easy",
+            "question": "What is the primary goal of Machine Learning?",
+            "options": [
+                "To write explicit instructions for every task",
+                "To enable computers to learn from data without being explicitly programmed",
+                "To replace all human jobs",
+                "To only build websites"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 2,
+            "difficulty": "easy",
+            "question": "Which of these is a real-world example of Machine Learning?",
+            "options": [
+                "Calculating a fixed math formula",
+                "Email spam filtering",
+                "Displaying a static image",
+                "Writing a text file"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 3,
+            "difficulty": "easy",
+            "question": "Artificial Intelligence is the ______ category that includes Machine Learning.",
+            "options": [
+                "Narrowest",
+                "Broadest",
+                "Subset",
+                "Disconnected"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 4,
+            "difficulty": "easy",
+            "question": "Deep Learning is a subset of which field?",
+            "options": [
+                "Web Development",
+                "Machine Learning",
+                "Database Management",
+                "Blockchain"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 5,
+            "difficulty": "easy",
+            "question": "In which type of learning are models trained on labeled data?",
+            "options": [
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning",
+                "Manual Learning"
+            ],
+            "answer": 0
+        },
+        {
+            "id": 6,
+            "difficulty": "easy",
+            "question": "Unsupervised learning is used when the data is:",
+            "options": [
+                "Labeled",
+                "Unlabeled",
+                "Encrypted",
+                "Deleted"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 7,
+            "difficulty": "easy",
+            "question": "A dataset usually consists of:",
+            "options": [
+                "Only target variables",
+                "Features and Labels",
+                "Only code",
+                "Empty files"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 8,
+            "difficulty": "easy",
+            "question": "What is a 'feature' in a dataset?",
+            "options": [
+                "The final result",
+                "An individual measurable property or characteristic of a phenomenon being observed",
+                "A bug in the code",
+                "The user's name"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 9,
+            "difficulty": "easy",
+            "question": "In a dataset of house prices, the 'price' column is the:",
+            "options": [
+                "Feature",
+                "Target/Label",
+                "Index",
+                "Comment"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 10,
+            "difficulty": "easy",
+            "question": "Why do we split data into training and testing sets?",
+            "options": [
+                "To make the data smaller",
+                "To evaluate how well the model generalizes to new, unseen data",
+                "To hide data from the user",
+                "Because computers can't handle large files"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 11,
+            "difficulty": "easy",
+            "question": "Overfitting happens when a model performs ______ on training data but ______ on testing data.",
+            "options": [
+                "Poorly, Well",
+                "Well, Poorly",
+                "Poorly, Poorly",
+                "Well, Well"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 12,
+            "difficulty": "easy",
+            "question": "Underfitting usually occurs when the model is:",
+            "options": [
+                "Too complex",
+                "Too simple",
+                "Too large",
+                "Too colorful"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 13,
+            "difficulty": "easy",
+            "question": "Accuracy is defined as:",
+            "options": [
+                "Number of wrong predictions / Total",
+                "Number of correct predictions / Total",
+                "Number of features",
+                "Number of training samples"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 14,
+            "difficulty": "easy",
+            "question": "Which evaluation metric is used as a summary of True Positives, True Negatives, False Positives, and False Negatives?",
+            "options": [
+                "Mean Square Error",
+                "Confusion Matrix",
+                "Gradient Descent",
+                "Standard Deviation"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 15,
+            "difficulty": "easy",
+            "question": "Precision measures:",
+            "options": [
+                "The percentage of total samples that are correct",
+                "The percentage of positive identifications that were actually correct",
+                "The percentage of actual positives that were correctly identified",
+                "The size of the matrix"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 16,
+            "difficulty": "easy",
+            "question": "Recall (Sensitivity) measures:",
+            "options": [
+                "Memory usage",
+                "The percentage of actual positives that were correctly identified",
+                "How fast the model runs",
+                "The number of layers in a network"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 17,
+            "difficulty": "easy",
+            "question": "A vector is a quantity that has both ______ and ______.",
+            "options": [
+                "Mass, Volume",
+                "Magnitude, Direction",
+                "Height, Weight",
+                "Color, Shape"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 18,
+            "difficulty": "easy",
+            "question": "In ML, a table of numbers is called a:",
+            "options": [
+                "List",
+                "Matrix",
+                "Dictionary",
+                "Set"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 19,
+            "difficulty": "easy",
+            "question": "What is the 'mean' of a dataset?",
+            "options": [
+                "The middle value",
+                "The average value",
+                "The most frequent value",
+                "The difference between high and low"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 20,
+            "difficulty": "easy",
+            "question": "Reinforcement learning is based on a system of ______ and ______.",
+            "options": [
+                "Zeros, Ones",
+                "Rewards, Penalties",
+                "Inputs, Outputs",
+                "Buttons, Clicks"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 21,
+            "difficulty": "medium",
+            "question": "Which of the following is a key difference between AI and ML?",
+            "options": [
+                "ML is the theory, AI is the practice",
+                "AI is the broad concept of machines being able to carry out tasks in a way that we would consider 'smart', while ML is an application of AI",
+                "AI requires data, ML does not",
+                "There is no difference"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 22,
+            "difficulty": "medium",
+            "question": "Which algorithm is typically used for Supervised Learning?",
+            "options": [
+                "K-Means Clustering",
+                "Linear Regression",
+                "Principal Component Analysis",
+                "Apriori Algorithm"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 23,
+            "difficulty": "medium",
+            "question": "Which task is an example of Unsupervised Learning?",
+            "options": [
+                "Predicting stock prices",
+                "Grouping customers based on purchasing behavior (Clustering)",
+                "Classifying emails as spam or not spam",
+                "Recognizing handwritten digits with labels"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 24,
+            "difficulty": "medium",
+            "question": "What does 'Bias' represent in a model?",
+            "options": [
+                "The model's ability to learn noise",
+                "Error from erroneous assumptions in the learning algorithm (Leading to underfitting)",
+                "The spread of predictions",
+                "The file size of the model"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 25,
+            "difficulty": "medium",
+            "question": "What does 'Variance' represent in a model?",
+            "options": [
+                "The average error",
+                "Error from sensitivity to small fluctuations in the training set (Leading to overfitting)",
+                "The complexity of the input",
+                "The number of categories"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 26,
+            "difficulty": "medium",
+            "question": "Finding the best balance between Bias and Variance is called the:",
+            "options": [
+                "Profit margin",
+                "Bias-Variance Tradeoff",
+                "Error optimization",
+                "Learning rate"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 27,
+            "difficulty": "medium",
+            "question": "What is 'Cross-Validation'?",
+            "options": [
+                "Comparing two different models",
+                "A technique to evaluate predictive models by partitioning the original sample into a training set to train the model, and a test set to evaluate it multiple times",
+                "Checking data for spelling errors",
+                "Using two computers to train"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 28,
+            "difficulty": "medium",
+            "question": "The F1 Score is the harmonic mean of ______ and ______.",
+            "options": [
+                "Accuracy, Precision",
+                "Precision, Recall",
+                "Recall, Accuracy",
+                "Bias, Variance"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 29,
+            "difficulty": "medium",
+            "question": "Which of these helps prevent overfitting?",
+            "options": [
+                "Adding more noise to data",
+                "Using more training samples and regularization",
+                "Making the model more complex",
+                "Using less data"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 30,
+            "difficulty": "medium",
+            "question": "What is a 'Target Variable'?",
+            "options": [
+                "A variable that changes randomly",
+                "The variable that we are trying to predict (Independent variable)",
+                "The variable that we are trying to predict (Dependent variable)",
+                "The name of the database"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 31,
+            "difficulty": "medium",
+            "question": "What is the difference between classification and regression?",
+            "options": [
+                "Classification predicts continuous values, regression predicts labels",
+                "Classification predicts categories/labels, regression predicts continuous numerical values",
+                "They are the same thing",
+                "Regression is only for math"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 32,
+            "difficulty": "medium",
+            "question": "In a confusion matrix, a 'False Positive' means:",
+            "options": [
+                "Model correctly predicted a positive",
+                "Model predicted positive when it was actually negative",
+                "Model predicted negative when it was actually positive",
+                "Model correctly predicted a negative"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 33,
+            "difficulty": "medium",
+            "question": "In a confusion matrix, a 'False Negative' means:",
+            "options": [
+                "Model predicted positive when it was negative",
+                "Model predicted negative when it was actually positive",
+                "Model correctly identified a negative",
+                "The data was missing"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 34,
+            "difficulty": "medium",
+            "question": "Which mathematical concept is used to find the direction of steepest descent for error reduction?",
+            "options": [
+                "Addition",
+                "Gradient (Calculus)",
+                "Square Root",
+                "Integration"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 35,
+            "difficulty": "medium",
+            "question": "Standard Deviation is the square root of:",
+            "options": [
+                "Mean",
+                "Variance",
+                "Sum",
+                "Accuracy"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 36,
+            "difficulty": "medium",
+            "question": "If a model has high accuracy on training but low accuracy on validation, it is ______.",
+            "options": [
+                "Underfitting",
+                "Optimal",
+                "Overfitting",
+                "Balanced"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 37,
+            "difficulty": "medium",
+            "question": "Probability is always a value between:",
+            "options": [
+                "-1 and 1",
+                "0 and 1",
+                "0 and 100",
+                "any number"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 38,
+            "difficulty": "medium",
+            "question": "Which type of machine learning uses an agent that interacts with an environment and learns through trial and error?",
+            "options": [
+                "Supervised",
+                "Unsupervised",
+                "Reinforcement",
+                "Clustering"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 39,
+            "difficulty": "medium",
+            "question": "What is a 'feature vector'?",
+            "options": [
+                "An arrow in a graph",
+                "A n-dimensional vector of numerical features that represent some object",
+                "The output of a model",
+                "A list of strings"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 40,
+            "difficulty": "medium",
+            "question": "The total probability of all possible outcomes in a sample space is:",
+            "options": [
+                "0",
+                "0.5",
+                "1",
+                "Infinity"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 41,
+            "difficulty": "hard",
+            "question": "What is the 'Curse of Dimensionality'?",
+            "options": [
+                "Having too few features",
+                "The phenomenon where data becomes sparse in high-dimensional space, making it difficult for models to find patterns",
+                "A virus in the database",
+                "The difficulty of drawing 4D charts"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 42,
+            "difficulty": "hard",
+            "question": "Regularization is used to:",
+            "options": [
+                "Make the data look pretty",
+                "Penalize larger coefficients to prevent overfitting (e.g., L1 and L2 regularization)",
+                "Increase the training time",
+                "Adding more layers to a model"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 43,
+            "difficulty": "hard",
+            "question": "What is the significance of the Eigenvalues in Principal Component Analysis (PCA)?",
+            "options": [
+                "They represent the color of the data",
+                "They represent the amount of variance explained by each principal component",
+                "They indicate the training speed",
+                "They are random constants"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 44,
+            "difficulty": "hard",
+            "question": "Bayes' Theorem relates ______ to ______.",
+            "options": [
+                "Inputs, Outputs",
+                "Conditional and Marginal Probabilities",
+                "Linear and Non-linear functions",
+                "Weights, Biases"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 45,
+            "difficulty": "hard",
+            "question": "A model with high bias and high variance is:",
+            "options": [
+                "Optimal",
+                "Mathematically impossible",
+                "Typically performing very poorly and inconsistent",
+                "A very complex model that works well"
+            ],
+            "answer": 2
+        },
+        {
+            "id": 46,
+            "difficulty": "hard",
+            "question": "In a ROC curve, what are the axes?",
+            "options": [
+                "Accuracy vs Loss",
+                "True Positive Rate vs False Positive Rate",
+                "Precision vs Recall",
+                "Input vs Output"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 47,
+            "difficulty": "hard",
+            "question": "What is 'Stochastic Gradient Descent' (SGD)?",
+            "options": [
+                "A way to sort data",
+                "An optimization method that updates parameters using only one or a few training examples at a time",
+                "A type of supervised learning",
+                "A method to generate random data"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 48,
+            "difficulty": "hard",
+            "question": "Which of these is a generative model?",
+            "options": [
+                "Support Vector Machines",
+                "Naive Bayes",
+                "Linear Regression",
+                "Logistic Regression"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 49,
+            "difficulty": "hard",
+            "question": "The 'Kernel Trick' is primarily associated with:",
+            "options": [
+                "Neural Networks",
+                "Support Vector Machines (SVM)",
+                "Decision Trees",
+                "K-Nearest Neighbors"
+            ],
+            "answer": 1
+        },
+        {
+            "id": 50,
+            "difficulty": "hard",
+            "question": "The 'Vanishing Gradient Problem' is most common in:",
+            "options": [
+                "Linear Regression",
+                "Deep Neural Networks with many layers",
+                "Single Perceptrons",
+                "Input data cleanup"
+            ],
+            "answer": 1
+        }
+    ]
+}
